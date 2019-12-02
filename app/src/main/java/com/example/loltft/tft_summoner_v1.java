@@ -38,7 +38,7 @@ public class tft_summoner_v1 extends AsyncTask<String, Void, String> {
     int profileIconId = 0;
     int revisionDate = 0;
     int summonerLevel = 0;
-    String api = "?api_key=RGAPI-3fae25fa-26e0-46f3-aa52-c0303953dca3";
+    String api = "?api_key=";
 
     @Override
     protected String doInBackground(String... params) {
