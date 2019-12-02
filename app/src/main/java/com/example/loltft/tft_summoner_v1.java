@@ -45,7 +45,7 @@ public class tft_summoner_v1 extends AsyncTask<String, Void, String> {
         // do the works on url.....
         try {
             Log.d(del.toString(),"MainActivity 반환");
-            String id = "전우협 CEO";
+            String id = "DRX Deft";
             setURL = "https://kr.api.riotgames.com/tft/summoner/v1/summoners/by-name/" + URLEncoder.encode(id, "UTF-8").replace("+", "%20") + api;
             Log.d("URL",setURL);
         } catch(IOException e) {
