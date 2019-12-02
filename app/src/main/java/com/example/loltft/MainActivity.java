@@ -20,20 +20,21 @@ import java.net.URL;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements tft_summoner_v1.AsyncResponse {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView txt = findViewById(R.id.parsetext);
-        EditText id = findViewById(R.id.ID);
-
-        String temp = "전우협 CEO";
-        tft_summoner_v1 summoner = new tft_summoner_v1(temp);
-        summoner.start();
-
-
+        new tft_summoner_v1(MainActivity.this).execute();
     }
+
+    public void processFinish(String output){
+        String id = output;
+        TextView txt = findViewById(R.id.parsetext);
+        txt.setText(id);
+    }
+
 
 }
