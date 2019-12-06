@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Champion_Activity"
+    android:orientation="vertical">
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_percentage"
+                android:text="확률"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_champion"
+                android:text="챔피언"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_synergy"
+                android:text="시너지"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_synergy_combine"
+                android:text="조합식"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_path_note"
+                android:text="패치 노트"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Cost1 LinearLayout -->
+            <LinearLayout
+                android:id="@+id/cost1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_orrn"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_elec_ornn"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="오른"/>
+
+                </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_diana"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_hellfire_diana"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="다이애나"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_zyra"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_hellfire_zyra"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="자이라"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_warwick"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_ice_warwick"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="워윅"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_ivern"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_ivern"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="아이번"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_kogmaw"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_kogmaw"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="코그모"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_nasus"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_light_nasus"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="나서스"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_vayne"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_light_vayne"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="베인"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_maokai"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_maokai"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="마오카이"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_renekton"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_renekton"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="레넥톤"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_vladimir"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_sea_vladimir"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="블라디미르"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_taliyah"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost1_taliyah"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="탈리야"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Cost2 LinearLayout -->
+            <LinearLayout
+                android:id="@+id/cost2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cost2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_braum"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_braum"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="브라움"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_leblanc"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_forest_leblanc"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="르블랑"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_varus"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_hellfire_varus"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="바루스"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_jax"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_light_jax"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="잭스"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_neeko"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_neeko"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="니코"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_syndra"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_sea_syndra"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="신드라"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_thresh"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_sea_thresh"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="쓰레쉬"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_senna"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_senna"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="세나"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_skarner"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_skarner"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="스카너"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_reksai"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_steel_reksai"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="렉사이"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_malzahar"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_summoner_malzahar"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="말자하"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_volibare"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost2_volibare"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="볼리베어"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_yasuo"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost2_yasuo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="야스오"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Cost3 LinearLayout -->
+            <LinearLayout
+                android:id="@+id/cost3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageButton
+                            android:id="@+id/btn_champion_azir"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_azir"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="아지르"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_sion"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_berserker_sion"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="사이온"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_drmondo"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_drmundo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="문도박사"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_kindred"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_hellfire_kinred"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="킨드레드"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_ezreal"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_ice_ezreal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="이즈리얼"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_aatrox"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_light_aatrox"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="아트록스"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_nautilus"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_nautilus"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="노틸러스"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_qiyana"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_qiyana"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="키아나"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_sivir"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_sivir"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="시비르"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_soraka"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_soraka"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="소라카"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_nocturne"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_steel_nocturne"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="녹턴"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_veigar"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:layout_weight="1"
+                            android:src="@drawable/cost3_veigar"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="베이가"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Cost4 LinearLayout -->
+            <LinearLayout
+                android:id="@+id/cost4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cost4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_annie"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_annie" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="애니"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_brand"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_brand"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="브랜드"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_ashe"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_crystal_ashe"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="애쉬"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_khazix"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_desert_khazix"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="카직스"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_olaf"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_ice_olaf"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="올라프"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageButton
+                            android:id="@+id/btn_champion_janna"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_janna"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="잔나"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_yorick"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_light_yorick"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="요릭"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_lucian"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_lucian"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="루시안"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_malphite"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_malphite" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="말파이트"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_twitch"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost4_twitch" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="트위치"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Cost5 LinearLayout -->
+            <LinearLayout
+                android:id="@+id/cost5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cost5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_zed"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost5_elec_zed" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="제드"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_amumu"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost5_hellfire_amumu"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="브랜드"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_nami"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost5_sea_nami"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="나미"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_masteryi"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost5_shadow_masteryi"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="마스터 이"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_singed"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost5_singed"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="신지드"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageButton
+                            android:id="@+id/btn_champion_taric"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost5_taric"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="타릭"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Cost7 LinearLayout -->
+            <LinearLayout
+                android:id="@+id/cost7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_gold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cost7_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_lux"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost7_lux" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="럭스"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
