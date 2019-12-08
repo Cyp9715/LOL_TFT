@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,8 +19,10 @@ public class Champion_Activity extends AppCompatActivity {
         Button btn_synergy = findViewById(R.id.btn_synergy);
         Button synergy_combine = findViewById(R.id.btn_synergy_combine);
         Button btn_path_note = findViewById(R.id.btn_path_note);
+        ImageButton btn_champion_orrn = findViewById(R.id.btn_champion_orrn);
 
 
+        // MENU CLICK LISTENER
         btn_percentage.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
                 Intent intent_percentage = new Intent(getApplicationContext(), Percentage_Activity.class);
@@ -66,5 +69,19 @@ public class Champion_Activity extends AppCompatActivity {
                 overridePendingTransition(0, 0);
             }
         });
+
+
+
+        // 챔피언 버튼 클릭시
+        btn_champion_orrn.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View view){
+
+            }
+        });
+
+
+
+
+
     }
 }

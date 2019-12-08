@@ -119,7 +119,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="오른"/>
+                            android:text="@string/champion_name_1_1_1"/>
 
                 </LinearLayout>
 
@@ -143,7 +143,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="다이애나"/>
+                            android:text="@string/champion_name_1_1_2"/>
 
                     </LinearLayout>
 
@@ -167,7 +167,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="자이라"/>
+                            android:text="@string/champion_name_1_1_3"/>
 
                     </LinearLayout>
 
@@ -191,7 +191,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="워윅"/>
+                            android:text="@string/champion_name_1_1_4"/>
 
                     </LinearLayout>
 
@@ -215,7 +215,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="아이번"/>
+                            android:text="@string/champion_name_1_1_5"/>
 
                     </LinearLayout>
 
@@ -239,7 +239,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="코그모"/>
+                            android:text="@string/champion_name_1_1_6"/>
 
                     </LinearLayout>
 
@@ -270,7 +270,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="나서스"/>
+                            android:text="@string/champion_name_1_2_1"/>
 
                     </LinearLayout>
 
@@ -294,7 +294,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="베인"/>
+                            android:text="@string/champion_name_1_2_2"/>
 
                     </LinearLayout>
 
@@ -318,7 +318,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="마오카이"/>
+                            android:text="@string/champion_name_1_2_3"/>
 
                     </LinearLayout>
 
@@ -342,7 +342,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="레넥톤"/>
+                            android:text="@string/champion_name_1_2_4"/>
 
                     </LinearLayout>
 
@@ -366,7 +366,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="블라디미르"/>
+                            android:text="@string/champion_name_1_2_5"/>
 
                     </LinearLayout>
 
@@ -390,7 +390,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="탈리야"/>
+                            android:text="@string/champion_name_1_2_6"/>
 
                     </LinearLayout>
 
@@ -454,7 +454,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="브라움"/>
+                            android:text="@string/champion_name_2_1_1"/>
 
                     </LinearLayout>
 
@@ -478,7 +478,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="르블랑"/>
+                            android:text="@string/champion_name_2_1_2"/>
 
                     </LinearLayout>
 
@@ -502,7 +502,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="바루스"/>
+                            android:text="@string/champion_name_2_1_3"/>
 
                     </LinearLayout>
 
@@ -526,7 +526,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="잭스"/>
+                            android:text="@string/champion_name_2_1_4"/>
 
                     </LinearLayout>
 
@@ -550,7 +550,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="니코"/>
+                            android:text="@string/champion_name_2_1_5"/>
 
                     </LinearLayout>
 
@@ -574,7 +574,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="신드라"/>
+                            android:text="@string/champion_name_2_1_6"/>
 
                     </LinearLayout>
 
@@ -605,7 +605,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="쓰레쉬"/>
+                            android:text="@string/champion_name_2_2_1"/>
 
                     </LinearLayout>
 
@@ -629,7 +629,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="세나"/>
+                            android:text="@string/champion_name_2_2_2"/>
 
                     </LinearLayout>
 
@@ -653,7 +653,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="스카너"/>
+                            android:text="@string/champion_name_2_2_3"/>
 
                     </LinearLayout>
 
@@ -677,7 +677,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="렉사이"/>
+                            android:text="@string/champion_name_2_2_4"/>
 
                     </LinearLayout>
 
@@ -701,7 +701,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="말자하"/>
+                            android:text="@string/champion_name_2_2_5"/>
 
                     </LinearLayout>
 
@@ -725,7 +725,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="볼리베어"/>
+                            android:text="@string/champion_name_2_2_6"/>
 
                     </LinearLayout>
 
@@ -750,13 +750,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost2_yasuo"/>
+                            android:src="@drawable/cost2_yasuo" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="야스오"/>
+                            android:text="@string/champion_name_2_3_1" />
 
                     </LinearLayout>
 
@@ -764,31 +764,31 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
 
                 </LinearLayout>
@@ -853,7 +853,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="아지르"/>
+                            android:text="@string/champion_name_3_1_1"/>
 
                     </LinearLayout>
 
@@ -877,7 +877,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="사이온"/>
+                            android:text="@string/champion_name_3_1_2"/>
 
                     </LinearLayout>
 
@@ -901,7 +901,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="문도박사"/>
+                            android:text="@string/champion_name_3_1_3"/>
 
                     </LinearLayout>
 
@@ -919,13 +919,13 @@
                             android:padding="1dp"
                             android:scaleType="centerInside"
                             android:layout_weight="1"
-                            android:src="@drawable/cost3_hellfire_kinred"/>
+                            android:src="@drawable/cost3_hellfire_kindred"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="킨드레드"/>
+                            android:text="@string/champion_name_3_1_4"/>
 
                     </LinearLayout>
 
@@ -949,7 +949,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="이즈리얼"/>
+                            android:text="@string/champion_name_3_1_5"/>
 
                     </LinearLayout>
 
@@ -973,7 +973,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="아트록스"/>
+                            android:text="@string/champion_name_3_1_6"/>
 
                     </LinearLayout>
 
@@ -1005,7 +1005,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="노틸러스"/>
+                            android:text="@string/champion_name_3_2_1"/>
 
                     </LinearLayout>
 
@@ -1029,7 +1029,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="키아나"/>
+                            android:text="@string/champion_name_3_2_2"/>
 
                     </LinearLayout>
 
@@ -1053,7 +1053,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="시비르"/>
+                            android:text="@string/champion_name_3_2_3"/>
 
                     </LinearLayout>
 
@@ -1078,7 +1078,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="소라카"/>
+                            android:text="@string/champion_name_3_2_4"/>
 
                     </LinearLayout>
 
@@ -1102,7 +1102,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="녹턴"/>
+                            android:text="@string/champion_name_3_2_5"/>
 
                     </LinearLayout>
 
@@ -1126,7 +1126,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="베이가"/>
+                            android:text="@string/champion_name_3_2_6"/>
 
                     </LinearLayout>
 
@@ -1195,7 +1195,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="애니"/>
+                            android:text="@string/champion_name_4_1_1"/>
 
                     </LinearLayout>
 
@@ -1218,7 +1218,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="브랜드"/>
+                            android:text="@string/champion_name_4_1_2"/>
 
                     </LinearLayout>
 
@@ -1241,7 +1241,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="애쉬"/>
+                            android:text="@string/champion_name_4_1_3"/>
 
                     </LinearLayout>
 
@@ -1264,7 +1264,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="카직스"/>
+                            android:text="@string/champion_name_4_1_4"/>
 
                     </LinearLayout>
 
@@ -1287,7 +1287,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="올라프"/>
+                            android:text="@string/champion_name_4_1_5"/>
 
                     </LinearLayout>
 
@@ -1309,7 +1309,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="잔나"/>
+                            android:text="@string/champion_name_4_1_6"/>
 
                     </LinearLayout>
 
@@ -1339,7 +1339,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="요릭"/>
+                            android:text="@string/champion_name_4_2_1"/>
 
                     </LinearLayout>
 
@@ -1362,7 +1362,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="루시안"/>
+                            android:text="@string/champion_name_4_2_2"/>
 
                     </LinearLayout>
 
@@ -1385,7 +1385,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="말파이트"/>
+                            android:text="@string/champion_name_4_2_3"/>
 
                     </LinearLayout>
 
@@ -1408,7 +1408,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="트위치"/>
+                            android:text="@string/champion_name_4_2_4"/>
 
                     </LinearLayout>
 
@@ -1495,7 +1495,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="제드"/>
+                            android:text="@string/champion_name_5_1_1"/>
 
                     </LinearLayout>
 
@@ -1517,7 +1517,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="브랜드"/>
+                            android:text="@string/champion_name_5_1_2"/>
 
                     </LinearLayout>
 
@@ -1540,7 +1540,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="나미"/>
+                            android:text="@string/champion_name_5_1_3"/>
 
                     </LinearLayout>
 
@@ -1563,7 +1563,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="마스터 이"/>
+                            android:text="@string/champion_name_5_1_4"/>
 
                     </LinearLayout>
 
@@ -1585,7 +1585,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="신지드"/>
+                            android:text="@string/champion_name_5_1_5"/>
 
                     </LinearLayout>
 
@@ -1607,7 +1607,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="타릭"/>
+                            android:text="@string/champion_name_5_1_6"/>
 
                     </LinearLayout>
 
@@ -1691,7 +1691,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="럭스"/>
+                            android:text="@string/champion_name_7_1_1"/>
 
                     </LinearLayout>
 
