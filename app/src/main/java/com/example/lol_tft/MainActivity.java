@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent intent_percentage = new Intent(getApplicationContext(), Percentage_Activity.class);
                 startActivity(intent_percentage);
-                overridePendingTransition(0, 0);
             }
         });
 
@@ -48,14 +47,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         synergy_combine.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
                 Intent intent_synergy_combine = new Intent(getApplicationContext(), Synergy_Combine_Activity.class);
                 startActivity(intent_synergy_combine);
             }
         });
-
 
         btn_path_note.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
