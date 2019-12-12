@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Path_Note_Activity"
+    tools:context=".Percentage_Activity"
     android:orientation="vertical">
 
 
@@ -20,11 +20,6 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_percentage"
-                android:text="확률"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-            <Button
                 android:id="@+id/btn_champion"
                 android:text="챔피언"
                 android:layout_width="wrap_content"
@@ -37,6 +32,11 @@
             <Button
                 android:id="@+id/btn_synergy_combine"
                 android:text="조합식"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_percentage"
+                android:text="확률"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"/>
             <Button
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="패치노트">
+            android:text="확률">
         </TextView>
 
     </LinearLayout>

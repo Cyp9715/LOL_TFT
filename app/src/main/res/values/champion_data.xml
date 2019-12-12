@@ -6,7 +6,7 @@
     <string name="trait_avatar">아바타</string>
     <string name="trait_berserker">광전사</string>
     <string name="trait_blademaster">검사</string>
-    <string name="trait_cloud">암살자</string>
+    <string name="trait_cloud">바람</string>
     <string name="trait_crystal">수정</string>
     <string name="trait_desert">사막</string>
     <string name="trait_druid">드루이드</string>
@@ -26,6 +26,8 @@
     <string name="trait_summoner">소환사</string>
     <string name="trait_warden">파수꾼</string>
     <string name="trait_woodland">숲</string>
+    <string name="trait_soulbound">영혼결속자</string>
+    <string name="trait_unknown">유동적</string>
 
 
     <!-- cost 1 champion_name -->
@@ -39,7 +41,6 @@
     <string name="champion_1_1_1_popup_skilldescription">오른이 원뿔 형태의 번개를 내뿜어 \n적중한 적들에게 마법 피해를 입힙니다. \n해당 적들은 4초 동안 치명타 공격을 당할 확률이 20% 증가합니다.</string>
     <string name="champion_1_1_1_popup_skillvalue">피해량 : 100 / 200 / 300</string>
 
-
     <string name="champion_name_1_1_2">다이애나</string>
     <string name="champion_1_1_2_popup_hp">550 / 990 / 1980</string>
     <string name="champion_1_1_2_popup_mp">0 / 100</string>
@@ -51,77 +52,534 @@
     <string name="champion_1_1_2_popup_skillvalue">피해량 : 80 / 100 / 125 \n보호막 : 150 / 250 / 350 \n구체의 수 : 3 / 4 / 5</string>
 
     <string name="champion_name_1_1_3">자이라</string>
+    <string name="champion_1_1_3_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_1_3_popup_mp">0 / 75</string>
+    <string name="champion_1_1_3_popup_attack">25 / 45 / 90</string>
+    <string name="champion_1_1_3_popup_armor">20</string>
+    <string name="champion_1_1_3_popup_attackspeed">0.65</string>
+    <string name="champion_1_1_3_popup_attackrange">3</string>
+    <string name="champion_1_1_3_popup_skilldescription">자이라가 결투장 가장자리의 무작위 지역에 화염 발사 식물을 소환합니다. 화염 발사 식물은 3초 동안 가장 가까운 적에게 공격마다 마법 피해를 입히며 총 4회 공격합니다.</string>
+    <string name="champion_1_1_3_popup_skillvalue">피해량 : 70 / 80 / 90 \n화염 발사 식물 수: 2 / 3 / 4</string>
+
     <string name="champion_name_1_1_4">워윅</string>
+    <string name="champion_1_1_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_1_1_4_popup_mp">50 / 150</string>
+    <string name="champion_1_1_4_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_1_4_popup_armor">30</string>
+    <string name="champion_1_1_4_popup_attackspeed">0.6</string>
+    <string name="champion_1_1_4_popup_attackrange">1</string>
+    <string name="champion_1_1_4_popup_skilldescription">워윅이 가장 약한 적에게 달려들어 1.5초 동안 기절시키고 3회 할퀴어 마법 피해를 입힙니다. 할퀼 때마다 적중 시 효과가 적용되며 워윅이 가한 피해만큼 체력을 회복합니다.</string>
+    <string name="champion_1_1_4_popup_skillvalue">피해량 : 150 / 225 / 300</string>
+
     <string name="champion_name_1_1_5">아이번</string>
+    <string name="champion_1_1_5_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_1_1_5_popup_mp">50 / 100</string>
+    <string name="champion_1_1_5_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_1_5_popup_armor">25</string>
+    <string name="champion_1_1_5_popup_attackspeed">0.6</string>
+    <string name="champion_1_1_5_popup_attackrange">1</string>
+    <string name="champion_1_1_5_popup_skilldescription">아이번이 가장 체력이 낮은 아군에게 5초 동안 피해를 흡수하는 보호막을 씌웁니다.</string>
+    <string name="champion_1_1_5_popup_skillvalue">보호막 : 200 / 300 / 400</string>
+
     <string name="champion_name_1_1_6">코그모</string>
+    <string name="champion_1_1_6_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_1_6_popup_mp">0 / 40</string>
+    <string name="champion_1_1_6_popup_attack">25 / 45 / 90</string>
+    <string name="champion_1_1_6_popup_armor">20</string>
+    <string name="champion_1_1_6_popup_attackspeed">0.7</string>
+    <string name="champion_1_1_6_popup_attackrange">3</string>
+    <string name="champion_1_1_6_popup_skilldescription">코그모가 무작위 적에게 산성 점액을 발사하여 마법 피해를 입힙니다.</string>
+    <string name="champion_1_1_6_popup_skillvalue">피해량 : 125 / 275 / 425 \n시전 시간: 0.25</string>
 
     <string name="champion_name_1_2_1">나서스</string>
+    <string name="champion_1_2_1_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_1_2_1_popup_mp">0 / 100</string>
+    <string name="champion_1_2_1_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_2_1_popup_armor">40</string>
+    <string name="champion_1_2_1_popup_attackspeed">0.55</string>
+    <string name="champion_1_2_1_popup_attackrange">1</string>
+    <string name="champion_1_2_1_popup_skilldescription">나서스가 7초 동안 빛으로 둘러싸여 최대 체력이 증가하고 주변 적에게 매초 피해를 입힙니다.</string>
+    <string name="champion_1_2_1_popup_skillvalue">초당 피해량 : 50 / 70 / 90 \n최대 체력 증가량: 250 / 400 / 550</string>
+
     <string name="champion_name_1_2_2">베인</string>
+    <string name="champion_1_2_2_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_2_2_popup_mp">無</string>
+    <string name="champion_1_2_2_popup_attack">40 / 72 / 144</string>
+    <string name="champion_1_2_2_popup_armor">25</string>
+    <string name="champion_1_2_2_popup_attackspeed">0.75</string>
+    <string name="champion_1_2_2_popup_attackrange">3</string>
+    <string name="champion_1_2_2_popup_skilldescription">기본 지속 효과: 베인이 같은 대상을 3회 기본 공격하면 대상 최대 체력의 %만큼 고정 피해를 입힙니다.</string>
+    <string name="champion_1_2_2_popup_skillvalue">비례 피해량 : 9% / 12% / 15%</string>
+
     <string name="champion_name_1_2_3">마오카이</string>
+    <string name="champion_1_2_3_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_1_2_3_popup_mp">0</string>
+    <string name="champion_1_2_3_popup_attack">55 / 99 / 198</string>
+    <string name="champion_1_2_3_popup_armor">35</string>
+    <string name="champion_1_2_3_popup_attackspeed">0.5</string>
+    <string name="champion_1_2_3_popup_attackrange">1</string>
+    <string name="champion_1_2_3_popup_skilldescription">기본 지속 효과: 마오카이가 적 스킬에 피해를 입은 후 기본 공격 시 체력을 회복합니다.</string>
+    <string name="champion_1_2_3_popup_skillvalue">회복량 : 100 / 150 / 200</string>
+
     <string name="champion_name_1_2_4">레넥톤</string>
+    <string name="champion_1_2_4_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_1_2_4_popup_mp">0 / 100</string>
+    <string name="champion_1_2_4_popup_attack">55 / 99 / 198</string>
+    <string name="champion_1_2_4_popup_armor">35</string>
+    <string name="champion_1_2_4_popup_attackspeed">0.6</string>
+    <string name="champion_1_2_4_popup_attackrange">1</string>
+    <string name="champion_1_2_4_popup_skilldescription">레넥톤이 검을 휘둘러 주변의 모든 적에게 물리 피해를 입히고 적중한 적 하나당 회복량만큼 체력을 회복합니다.</string>
+    <string name="champion_1_2_4_popup_skillvalue">피해량 : 150 / 275 / 400 \n체력 회복량: 150 / 225 / 300</string>
+
     <string name="champion_name_1_2_5">블라디미르</string>
+    <string name="champion_1_2_5_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_1_2_5_popup_mp">0 / 75</string>
+    <string name="champion_1_2_5_popup_attack">40 / 72 / 144</string>
+    <string name="champion_1_2_5_popup_armor">30</string>
+    <string name="champion_1_2_5_popup_attackspeed">0.65</string>
+    <string name="champion_1_2_5_popup_attackrange">2</string>
+    <string name="champion_1_2_5_popup_skilldescription">블라디미르가 대상에게 마법 피해를 입히고 동일한 수치만큼 체력을 회복합니다.</string>
+    <string name="champion_1_2_5_popup_skillvalue">피해량 : 200 / 325 / 450</string>
+
     <string name="champion_name_1_2_6">탈리야</string>
+    <string name="champion_1_2_6_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_2_6_popup_mp">50 / 80</string>
+    <string name="champion_1_2_6_popup_attack">40 / 72 / 144</string>
+    <string name="champion_1_2_6_popup_armor">20</string>
+    <string name="champion_1_2_6_popup_attackspeed">0.65</string>
+    <string name="champion_1_2_6_popup_attackrange">3</string>
+    <string name="champion_1_2_6_popup_skilldescription">탈리야가 가장 많은 마나를 가진 적이 서 있는 지면에 폭발을 일으켜 마법 피해를 입히고 잠시 기절시킵니다. 해당 적이 원거리 챔피언인 경우 탈리야로부터 멀어지고 근접 챔피언은 탈리야 쪽으로 끌려옵니다.</string>
+    <string name="champion_1_2_6_popup_skillvalue">피해량 : 150 / 350 / 550</string>
 
 
     <!-- cost 2 champion_name -->
     <string name="champion_name_2_1_1">브라움</string>
+    <string name="champion_2_1_1_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_2_1_1_popup_mp">0 / 65</string>
+    <string name="champion_2_1_1_popup_attack">40 / 72 / 144</string>
+    <string name="champion_2_1_1_popup_armor">75</string>
+    <string name="champion_2_1_1_popup_attackspeed">0.6</string>
+    <string name="champion_2_1_1_popup_attackrange">1</string>
+    <string name="champion_2_1_1_popup_skilldescription">브라움이 4초 동안 방패를 들어 모든 투사체를 방어합니다. 이때 방패를 든 쪽으로부터 브라움이 받는 피해량이 감소합니다.</string>
+    <string name="champion_2_1_1_popup_skillvalue">피해량 감소 : 70% / 80% / 90%</string>
+
     <string name="champion_name_2_1_2">르블랑</string>
+    <string name="champion_2_1_2_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_2_1_2_popup_mp">50 / 80</string>
+    <string name="champion_2_1_2_popup_attack">55 / 99 / 198</string>
+    <string name="champion_2_1_2_popup_armor">20</string>
+    <string name="champion_2_1_2_popup_attackspeed">0.7</string>
+    <string name="champion_2_1_2_popup_attackrange">2</string>
+    <string name="champion_2_1_2_popup_skilldescription">르블랑이 환영 사슬을 무작위 적에게 던져 피해를 입히고 잠시 후 1.5초 동안 기절시킵니다.</string>
+    <string name="champion_2_1_2_popup_skillvalue">피해량 : 200 / 450 / 800</string>
+
     <string name="champion_name_2_1_3">바루스</string>
+    <string name="champion_2_1_3_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_2_1_3_popup_mp">50 / 100</string>
+    <string name="champion_2_1_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_2_1_3_popup_armor">25</string>
+    <string name="champion_2_1_3_popup_attackspeed">0.75/</string>
+    <string name="champion_2_1_3_popup_attackrange">4</string>
+    <string name="champion_2_1_3_popup_skilldescription">바루스가 1.5초 동안 정신을 집중한 뒤 꿰뚫는 화살을 발사해 경로상의 모든 적에게 마법 피해를 입힙니다.</string>
+    <string name="champion_2_1_3_popup_skillvalue">피해량 : 225 / 450 / 675</string>
+
     <string name="champion_name_2_1_4">잭스</string>
+    <string name="champion_2_1_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_2_1_4_popup_mp">50 / 125</string>
+    <string name="champion_2_1_4_popup_attack">50 / 90 / 180</string>
+    <string name="champion_2_1_4_popup_armor">30</string>
+    <string name="champion_2_1_4_popup_attackspeed">0.8</string>
+    <string name="champion_2_1_4_popup_attackrange">1</string>
+    <string name="champion_2_1_4_popup_skilldescription">잭스가 2초 동안 모든 공격을 회피한 후 주변 적들을 후려쳐 마법 피해를 입히고 1.5초 동안 기절시킵니다.</string>
+    <string name="champion_2_1_4_popup_skillvalue">피해량 : 150 / 250 / 450</string>
+
     <string name="champion_name_2_1_5">니코</string>
+    <string name="champion_2_1_5_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_2_1_5_popup_mp">0 / 80</string>
+    <string name="champion_2_1_5_popup_attack">45 / 81 / 162</string>
+    <string name="champion_2_1_5_popup_armor">20</string>
+    <string name="champion_2_1_5_popup_attackspeed">0.7</string>
+    <string name="champion_2_1_5_popup_attackrange">3</string>
+    <string name="champion_2_1_5_popup_skilldescription">니코가 세 번 폭발하며 피해를 입히는 씨앗을 무작위 적에게 던집니다. 씨앗이 폭발할 때마다 폭발 범위가 커집니다.</string>
+    <string name="champion_2_1_5_popup_skillvalue">피해량 : 100 / 200 / 350</string>
+
     <string name="champion_name_2_1_6">신드라</string>
+    <string name="champion_2_1_6_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_2_1_6_popup_mp">0 / 80</string>
+    <string name="champion_2_1_6_popup_attack">40 / 72 / 144</string>
+    <string name="champion_2_1_6_popup_armor">20</string>
+    <string name="champion_2_1_6_popup_attackspeed">0.7</string>
+    <string name="champion_2_1_6_popup_attackrange">3</string>
+    <string name="champion_2_1_6_popup_skilldescription">신드라가 무작위 적 주변에서 폭발하는 물의 구체를 생성하여 적중한 모든 적에게 마법 피해를 입힙니다.</string>
+    <string name="champion_2_1_6_popup_skillvalue">피해량 : 175 / 350 / 600</string>
 
     <string name="champion_name_2_2_1">쓰레쉬</string>
+    <string name="champion_2_2_1_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_2_2_1_popup_mp">50 / 125</string>
+    <string name="champion_2_2_1_popup_attack">55 / 99 / 198</string>
+    <string name="champion_2_2_1_popup_armor">40</string>
+    <string name="champion_2_2_1_popup_attackspeed">0.55</string>
+    <string name="champion_2_2_1_popup_attackrange">2</string>
+    <string name="champion_2_2_1_popup_skilldescription">쓰레쉬가 가장 체력이 낮은 아군에게 랜턴을 던져 해당 아군 및 주변의 모든 아군에게 5초 동안 피해를 흡수하는 보호막을 씌웁니다.</string>
+    <string name="champion_2_2_1_popup_skillvalue">보호막 : 250 / 400 / 600</string>
+
     <string name="champion_name_2_2_2">세나</string>
+    <string name="champion_2_2_2_popup_hp">450 / 810 / 1620</string>
+    <string name="champion_2_2_2_popup_mp">0 / 75</string>
+    <string name="champion_2_2_2_popup_attack">45 / 72 / 144</string>
+    <string name="champion_2_2_2_popup_armor">25</string>
+    <string name="champion_2_2_2_popup_attackspeed">0.7</string>
+    <string name="champion_2_2_2_popup_attackrange">4</string>
+    <string name="champion_2_2_2_popup_skilldescription">세나가 가장 멀리 있는 아군을 관통하는 광선을 발사하여 적에게 마법 피해를 입히고 5초 동안 아군의 적중 시 효과에 마법 피해 효과를 부여합니다. 마법 피해는 세나가 입힌 피해량으로 간주됩니다.</string>
+    <string name="champion_2_2_2_popup_skillvalue">피해량 : 50 / 100 / 150 \n적중시 효과 피해량 : 25 / 45 / 75</string>
+
     <string name="champion_name_2_2_3">스카너</string>
+    <string name="champion_2_2_3_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_2_2_3_popup_mp">0 / 65</string>
+    <string name="champion_2_2_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_2_2_3_popup_armor">35</string>
+    <string name="champion_2_2_3_popup_attackspeed">0.65</string>
+    <string name="champion_2_2_3_popup_attackrange">1</string>
+    <string name="champion_2_2_3_popup_skilldescription">스카너가 8초 동안 피해를 흡수하는 보호막을 얻습니다. 또한 보호막이 지속되는 동안 공격 속도가 증가합니다.</string>
+    <string name="champion_2_2_3_popup_skillvalue">보호막 : 150 / 450 / 750 \n추가 공격 속도: 30% / 65% / 100%</string>
+
     <string name="champion_name_2_2_4">렉사이</string>
+    <string name="champion_2_2_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_2_2_4_popup_mp">0 / 75</string>
+    <string name="champion_2_2_4_popup_attack">65 / 117 / 234</string>
+    <string name="champion_2_2_4_popup_armor">30</string>
+    <string name="champion_2_2_4_popup_attackspeed">0.7</string>
+    <string name="champion_2_2_4_popup_attackrange">1</string>
+    <string name="champion_2_2_4_popup_skilldescription">렉사이가 적을 물어뜯어 고정 피해를 입힙니다. </string>
+    <string name="champion_2_2_4_popup_skillvalue">고정 피해량 : 200 / 550 / 850</string>
+
     <string name="champion_name_2_2_5">말자하</string>
+    <string name="champion_2_2_5_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_2_2_5_popup_mp">75 / 125</string>
+    <string name="champion_2_2_5_popup_attack">40 / 72 / 144</string>
+    <string name="champion_2_2_5_popup_armor">20</string>
+    <string name="champion_2_2_5_popup_attackspeed">0.65</string>
+    <string name="champion_2_2_5_popup_attackrange">3</string>
+    <string name="champion_2_2_5_popup_skilldescription">말자하가 그림자 무리를 소환합니다. 그림자 무리는 매 공격 시 마법 피해를 입힙니다. 활성화되어 있는 그림자 특성 추가 효과는 그림자 무리에게도 적용됩니다.</string>
+    <string name="champion_2_2_5_popup_skillvalue">그림자 무리 개체 수 : 2 / 3 / 4 \n그림자 무리 피해량 : 30 / 60 / 90 \n그림자 무리 체력 : 250</string>
+
     <string name="champion_name_2_2_6">볼리베어</string>
+    <string name="champion_2_2_6_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_2_2_6_popup_mp">0 / 75</string>
+    <string name="champion_2_2_6_popup_attack">60 / 108 / 216</string>
+    <string name="champion_2_2_6_popup_armor">35</string>
+    <string name="champion_2_2_6_popup_attackspeed">0.7</string>
+    <string name="champion_2_2_6_popup_attackrange">1</string>
+    <string name="champion_2_2_6_popup_skilldescription">볼리베어가 대상을 물어뜯어 마법 피해를 입힙니다. 대상의 체력이 35%보다 낮은 경우 즉시 처치되며 볼리베어의 마나가 완전히 회복됩니다.</string>
+    <string name="champion_2_2_6_popup_skillvalue">피해량 : 200 / 450 / 850</string>
 
     <string name="champion_name_2_3_1">야스오</string>
+    <string name="champion_2_3_1_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_2_3_1_popup_mp">0 / 100</string>
+    <string name="champion_2_3_1_popup_attack">60 / 99 / 198</string>
+    <string name="champion_2_3_1_popup_armor">30</string>
+    <string name="champion_2_3_1_popup_attackspeed">0.7</string>
+    <string name="champion_2_3_1_popup_attackrange">1</string>
+    <string name="champion_2_3_1_popup_skilldescription">야스오가 가장 많은 아이템을 가진 적에게 순식간에 다가간 후 1초 동안 공중에 띄워 붙들어 두고 4회 공격해 기본 공격 시의 피해를 입힙니다. 이때 적중 시 효과가 적용됩니다.</string>
+    <string name="champion_2_3_1_popup_skillvalue">공격 횟수 : 4 / 5 / 6</string>
 
 
     <!-- cost 3 champion_name -->
     <string name="champion_name_3_1_1">아지르</string>
+    <string name="champion_3_1_1_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_1_1_popup_mp">0 / 100</string>
+    <string name="champion_3_1_1_popup_attack">55 / 99 / 198</string>
+    <string name="champion_3_1_1_popup_armor">20</string>
+    <string name="champion_3_1_1_popup_attackspeed">0.8</string>
+    <string name="champion_3_1_1_popup_attackrange">3</string>
+    <string name="champion_3_1_1_popup_skilldescription">아지르가 선택한 지역에 6초 동안 유지되는 모래 병사를 소환합니다. 모래 병사는 아지르가 공격할 때마다 일직선 상의 주변 적들을 공격하여 마법 피해를 입힙니다.</string>
+    <string name="champion_3_1_1_popup_skillvalue">피해량 : 125 / 250 / 375</string>
+
     <string name="champion_name_3_1_2">사이온</string>
+    <string name="champion_3_1_2_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_3_1_2_popup_mp">0 / 125</string>
+    <string name="champion_3_1_2_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_1_2_popup_armor">35</string>
+    <string name="champion_3_1_2_popup_attackspeed">0.65</string>
+    <string name="champion_3_1_2_popup_attackrange">1</string>
+    <string name="champion_3_1_2_popup_skilldescription">사이온이 강력한 일격을 준비한 후 지정 방향에 도끼를 내려쳐 적중한 모든 적에게 마법 피해를 입히고 공중으로 띄워 올립니다.</string>
+    <string name="champion_3_1_2_popup_skillvalue">피해량 : 200 / 400 / 800</string>
+
     <string name="champion_name_3_1_3">문도박사</string>
+    <string name="champion_3_1_3_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_3_1_3_popup_mp">75 / 125</string>
+    <string name="champion_3_1_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_3_1_3_popup_armor">35</string>
+    <string name="champion_3_1_3_popup_attackspeed">0.65</string>
+    <string name="champion_3_1_3_popup_attackrange">1</string>
+    <string name="champion_3_1_3_popup_skilldescription">문도 박사가 자신의 주위에 8초 동안 유독성 구름을 생성하여 주변의 적들에게 매초 피해량+최대 체력의 1.25%에 해당하는 마법 피해를 입히고 해당 수치의 %만큼 체력을 회복합니다.</string>
+    <string name="champion_3_1_3_popup_skillvalue">피해량 : 50 / 100 / 150 \n\체력 회복량: 100% / 125% / 150%</string>
+
     <string name="champion_name_3_1_4">킨드레드</string>
+    <string name="champion_3_1_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_3_1_4_popup_mp">0 / 35</string>
+    <string name="champion_3_1_4_popup_attack">55 / 99 / 198</string>
+    <string name="champion_3_1_4_popup_armor">20</string>
+    <string name="champion_3_1_4_popup_attackspeed">0.75</string>
+    <string name="champion_3_1_4_popup_attackrange">3</string>
+    <string name="champion_3_1_4_popup_skilldescription">늑대가 킨드레드의 적을 물어뜯어 마법 피해를 입히고 5초 동안 체력 회복 효과를 80% 감소시킵니다. 이때 양은 대상 적으로부터 재빨리 물러납니다.</string>
+    <string name="champion_3_1_4_popup_skillvalue">피해량 : 150 / 325 / 650</string>
+
     <string name="champion_name_3_1_5">이즈리얼</string>
+    <string name="champion_3_1_5_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_1_5_popup_mp">0 / 30</string>
+    <string name="champion_3_1_5_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_1_5_popup_armor">20</string>
+    <string name="champion_3_1_5_popup_attackspeed">0.7</string>
+    <string name="champion_3_1_5_popup_attackrange">3</string>
+    <string name="champion_3_1_5_popup_skilldescription">이즈리얼이 가장 체력이 낮은 대상에게 얼음 파편을 쏘아 마법 피해를 입히고 적중 시 효과를 적용합니다.</string>
+    <string name="champion_3_1_5_popup_skillvalue">피해량 : 200 / 400 / 800</string>
+
     <string name="champion_name_3_1_6">아트록스</string>
+    <string name="champion_3_1_6_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_3_1_6_popup_mp">0 / 70</string>
+    <string name="champion_3_1_6_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_1_6_popup_armor">35</string>
+    <string name="champion_3_1_6_popup_attackspeed">0.7</string>
+    <string name="champion_3_1_6_popup_attackrange">1</string>
+    <string name="champion_3_1_6_popup_skilldescription">아트록스가 대검을 휘둘러 전방 범위 내 모든 적에게 마법 피해를 입힙니다.</string>
+    <string name="champion_3_1_6_popup_skillvalue">피해량 : 250 / 500 / 1000</string>
 
     <string name="champion_name_3_2_1">노틸러스</string>
+    <string name="champion_3_2_1_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_3_2_1_popup_mp">50 / 125</string>
+    <string name="champion_3_2_1_popup_attack">55 / 99 / 198</string>
+    <string name="champion_3_2_1_popup_armor">40</string>
+    <string name="champion_3_2_1_popup_attackspeed">0.6</string>
+    <string name="champion_3_2_1_popup_attackrange">1</string>
+    <string name="champion_3_2_1_popup_skilldescription">노틸러스가 충격파를 발사하여 가장 멀리 있는 적을 공중으로 띄워 올리고 기절시킵니다. 또한 경로에 있는 모든 적에게 피해를 입힙니다.</string>
+    <string name="champion_3_2_1_popup_skillvalue">피해량 : 100 / 200 / 400 \n기절 지속시간 : 3 / 4 / 6</string>
+
     <string name="champion_name_3_2_2">키아나</string>
+    <string name="champion_3_2_2_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_3_2_2_popup_mp">50 / 100</string>
+    <string name="champion_3_2_2_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_2_2_popup_armor">25</string>
+    <string name="champion_3_2_2_popup_attackspeed">0.7</string>
+    <string name="champion_3_2_2_popup_attackrange">1</string>
+    <string name="champion_3_2_2_popup_skilldescription">키아나가 전방 짧은 직선 내의 적을 공격하며 기절시키고 마법 피해를 입힙니다.</string>
+    <string name="champion_3_2_2_popup_skillvalue">피해량 : 200 / 400 / 600 \n기절 지속 시간 : 3 / 4 / 5</string>
+
     <string name="champion_name_3_2_3">시비르</string>
+    <string name="champion_3_2_3_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_2_3_popup_mp">0 / 65</string>
+    <string name="champion_3_2_3_popup_attack">55 / 90 / 180</string>
+    <string name="champion_3_2_3_popup_armor">25</string>
+    <string name="champion_3_2_3_popup_attackspeed">0.7</string>
+    <string name="champion_3_2_3_popup_attackrange">3</string>
+    <string name="champion_3_2_3_popup_skilldescription">5초 동안 시비르의 기본 공격이 최대 10회 튕기며 적중한 적에게 물리 피해를 입히고 적중 시 효과를 적용합니다.</string>
+    <string name="champion_3_2_3_popup_skillvalue">피해량 : 100% / 125% / 150%</string>
+
     <string name="champion_name_3_2_4">소라카</string>
+    <string name="champion_3_2_4_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_2_4_popup_mp">0 / 60</string>
+    <string name="champion_3_2_4_popup_attack">40 / 72 / 144</string>
+    <string name="champion_3_2_4_popup_armor">20</string>
+    <string name="champion_3_2_4_popup_attackspeed">0.7</string>
+    <string name="champion_3_2_4_popup_attackrange">3</string>
+    <string name="champion_3_2_4_popup_skilldescription">소라카가 3초 동안 무작위 적 주변의 영역을 침묵시켜 해당 영역에 있는 모든 적에게 마법 피해를 입히고 마나를 회복할 수 없도록 합니다.</string>
+    <string name="champion_3_2_4_popup_skillvalue">피해량 : 150 / 300 / 450 \n지속 시간 : 3 / 5 / 7</string>
+
     <string name="champion_name_3_2_5">녹턴</string>
+    <string name="champion_3_2_5_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_3_2_5_popup_mp">0</string>
+    <string name="champion_3_2_5_popup_attack">60 / 108 / 216</string>
+    <string name="champion_3_2_5_popup_armor">25</string>
+    <string name="champion_3_2_5_popup_attackspeed">0.75</string>
+    <string name="champion_3_2_5_popup_attackrange">1</string>
+    <string name="champion_3_2_5_popup_skilldescription">기본 지속 효과 - 녹턴의 기본 공격이 세 번 적중할 때마다 공격이 강화되어 주변의 모든 적에게 피해를 입히고 적중 시 효과가 적용됩니다. 또한 녹턴이 피해량의 일정 비율만큼 자신의 체력을 회복합니다.</string>
+    <string name="champion_3_2_5_popup_skillvalue">회복 비율 : 40% / 60% / 80%</string>
+
     <string name="champion_name_3_2_6">베이가</string>
+    <string name="champion_3_2_6_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_2_6_popup_mp">0 / 60</string>
+    <string name="champion_3_2_6_popup_attack">50 / 90 / 180</string>
+    <string name="champion_3_2_6_popup_armor">20</string>
+    <string name="champion_3_2_6_popup_attackspeed">0.6</string>
+    <string name="champion_3_2_6_popup_attackrange">3</string>
+    <string name="champion_3_2_6_popup_skilldescription">베이가가 적 하나에게 마법 에너지를 발사해 마법 피해를 입힙니다. 베이가의 등급이 대상보다 높으면 즉사 피해를 입힙니다.</string>
+    <string name="champion_3_2_6_popup_skillvalue">피해량 : 300 / 600 / 900</string>
 
 
     <!-- cost 4 champion_name -->
     <string name="champion_name_4_1_1">애니</string>
+    <string name="champion_4_1_1_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_4_1_1_popup_mp">0 / 75</string>
+    <string name="champion_4_1_1_popup_attack">45 / 81 / 162</string>
+    <string name="champion_4_1_1_popup_armor">20</string>
+    <string name="champion_4_1_1_popup_attackspeed">0.7</string>
+    <string name="champion_4_1_1_popup_attackrange">3</string>
+    <string name="champion_4_1_1_popup_skilldescription">애니가 대상 근처에 티버를 소환하여 주변 모든 적에게 마법 피해를 입힙니다. 티버는 라운드가 끝나거나 쓰러질 때까지 싸우며 매 기본 공격 시 마법 피해를 입힙니다. 티버가 소환되어 있는 동안에는 애니의 마나가 회복되지 않습니다.</string>
+    <string name="champion_4_1_1_popup_skillvalue">피해량 : 100 / 200 / 300 \n티버 피해량 : 150 / 300 / 1000 \n티버 체력 : 2000, 티버 방어력 : 30</string>
+
     <string name="champion_name_4_1_2">브랜드</string>
+    <string name="champion_4_1_2_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_4_1_2_popup_mp">0 / 90</string>
+    <string name="champion_4_1_2_popup_attack">55 / 99 / 198</string>
+    <string name="champion_4_1_2_popup_armor">25</string>
+    <string name="champion_4_1_2_popup_attackspeed">0.7</string>
+    <string name="champion_4_1_2_popup_attackrange">3</string>
+    <string name="champion_4_1_2_popup_skilldescription">브랜드가 적에게 튕기는 불덩이를 발사합니다. 불덩이는 주변 적에게 튕기며 적에게 닿을 때마다 마법 피해를 입힙니다.</string>
+    <string name="champion_4_1_2_popup_skillvalue">피해량 : 225 / 300 / 600 \n최대 튕기는 횟수 : 5 / 7 / 20</string>
+
     <string name="champion_name_4_1_3">애쉬</string>
+    <string name="champion_4_1_3_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_4_1_3_popup_mp">0 / 35</string>
+    <string name="champion_4_1_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_4_1_3_popup_armor">20</string>
+    <string name="champion_4_1_3_popup_attackspeed">0.8</string>
+    <string name="champion_4_1_3_popup_attackrange">4</string>
+    <string name="champion_4_1_3_popup_skilldescription">5초 동안 애쉬의 공격 속도가 오르며 기본 공격이 다발 공격으로 변경되어 물리 피해를 입힙니다.</string>
+    <string name="champion_4_1_3_popup_skillvalue">추가 공격 속도 : 50% / 75% / 250% \n추가 피해량 : 125% / 130% / 135%</string>
+
     <string name="champion_name_4_1_4">카직스</string>
+    <string name="champion_4_1_4_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_4_1_4_popup_mp">0 / 40</string>
+    <string name="champion_4_1_4_popup_attack">75 / 135 / 270</string>
+    <string name="champion_4_1_4_popup_armor">25</string>
+    <string name="champion_4_1_4_popup_attackspeed">0.8</string>
+    <string name="champion_4_1_4_popup_attackrange">1</string>
+    <string name="champion_4_1_4_popup_skilldescription">카직스가 은신해 체력이 가장 낮은 적을 공격합니다. 이때 치명타로 물리 피해를 입히고 마나를 얻습니다.</string>
+    <string name="champion_4_1_4_popup_skillvalue">추가 피해량 : 100 / 200 / 500\n 마나 회복 : 5 / 10 / 15</string>
+
     <string name="champion_name_4_1_5">올라프</string>
+    <string name="champion_4_1_5_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_4_1_5_popup_mp">0 / 90</string>
+    <string name="champion_4_1_5_popup_attack">70 / 126 / 252</string>
+    <string name="champion_4_1_5_popup_armor">35</string>
+    <string name="champion_4_1_5_popup_attackspeed">0.85</string>
+    <string name="champion_4_1_5_popup_attackrange">1</string>
+    <string name="champion_4_1_5_popup_skilldescription">올라프가 남은 라운드 동안 추가 공격 속도, 잃은 체력 비례 50%의 생명력 흡수 및 군중 제어 스킬 면역 효과를 얻습니다.</string>
+    <string name="champion_4_1_5_popup_skillvalue">추가 공격 속도 : 100% / 150% / 300%</string>
+
     <string name="champion_name_4_1_6">잔나</string>
+    <string name="champion_4_1_6_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_4_1_6_popup_mp">50 / 125</string>
+    <string name="champion_4_1_6_popup_attack">45 / 81 / 162</string>
+    <string name="champion_4_1_6_popup_armor">20</string>
+    <string name="champion_4_1_6_popup_attackspeed">0.7</string>
+    <string name="champion_4_1_6_popup_attackrange">3</string>
+    <string name="champion_4_1_6_popup_skilldescription">잔나가 자신의 주위에 계절풍을 소환하여 3초 동안 해당 범위에 있는 모든 아군의 체력을 각 챔피언 최대 체력의 20%만큼 회복시킵니다. 주변 적들은 뒤로 밀려나고 1초 동안 기절합니다.</string>
+    <string name="champion_4_1_6_popup_skillvalue">치유량 : 20% / 30% / 100%</string>
 
     <string name="champion_name_4_2_1">요릭</string>
+    <string name="champion_4_2_1_popup_hp">800 / 1440 / 2880</string>
+    <string name="champion_4_2_1_popup_mp">0 / 75</string>
+    <string name="champion_4_2_1_popup_attack">65 / 117 / 234</string>
+    <string name="champion_4_2_1_popup_armor">35</string>
+    <string name="champion_4_2_1_popup_attackspeed">0.7</string>
+    <string name="champion_4_2_1_popup_attackrange">1</string>
+    <string name="champion_4_2_1_popup_skilldescription">요릭이 빛의 미니언 이외의 가장 체력이 낮은 아군 2명을 축복합니다. 해당 아군이 처치당하면 600 체력과 100의 물리 공격력을 가진 빛의 미니언으로 부활합니다. 활성화되어 있는 빛 특성 추가 효과는 빛의 미니언에게도 적용됩니다.</string>
+    <string name="champion_4_2_1_popup_skillvalue">미니언 체력: 600 / 1000 / 2000 \n미니언 피해량: 100 / 200 / 300 \n대상 수: 2 / 3 / 12</string>
+
     <string name="champion_name_4_2_2">루시안</string>
+    <string name="champion_4_2_2_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_4_2_2_popup_mp">50</string>
+    <string name="champion_4_2_2_popup_attack">65 / 117 / 234</string>
+    <string name="champion_4_2_2_popup_armor">25</string>
+    <string name="champion_4_2_2_popup_attackspeed">0.8</string>
+    <string name="champion_4_2_2_popup_attackrange">3</string>
+    <string name="champion_4_2_2_popup_skilldescription">루시안이 4초 동안 한 방향을 향해 10+(초당 공격 횟수의 2배)회 탄환을 발사하여 각각 공격력의 %만큼 피해를 입히고 적중 시 효과를 적용하며 추가 마법 피해를 입힙니다.</string>
+    <string name="champion_4_2_2_popup_skillvalue">피해량 : 25% / 30% / 50% \n적중 시 효과 피해량 : 40 / 50 / 100</string>
+
     <string name="champion_name_4_2_3">말파이트</string>
+    <string name="champion_4_2_3_popup_hp">850 / 1440 / 2880</string>
+    <string name="champion_4_2_3_popup_mp">50 / 150</string>
+    <string name="champion_4_2_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_4_2_3_popup_armor">50</string>
+    <string name="champion_4_2_3_popup_attackspeed">0.55</string>
+    <string name="champion_4_2_3_popup_attackrange">1</string>
+    <string name="champion_4_2_3_popup_skilldescription">말파이트가 무작위 적에게 돌진하여 해당 적과 주변 적들에게 마법 피해를 입히고 공중으로 띄워 올려 기절시킵니다.</string>
+    <string name="champion_4_2_3_popup_skillvalue">피해량 : 150 / 300 / 1000 \n기절 지속 시간 : 2 / 2.5 / 5</string>
+
     <string name="champion_name_4_2_4">트위치</string>
+    <string name="champion_4_2_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_4_2_4_popup_mp">0 / 90</string>
+    <string name="champion_4_2_4_popup_attack">60 / 108 / 216</string>
+    <string name="champion_4_2_4_popup_armor">20</string>
+    <string name="champion_4_2_4_popup_attackspeed">0.75</string>
+    <string name="champion_4_2_4_popup_attackrange">4</string>
+    <string name="champion_4_2_4_popup_skilldescription">8초 동안 트위치의 기본 공격 사거리에 제한이 없어지고 피해를 입힙니다. 이때 트위치의 공격에는 최대 사거리가 적용되며 적중하는 모든 적을 관통합니다. 또한 적중 시 효과가 적용됩니다.</string>
+    <string name="champion_4_2_4_popup_skillvalue">추가 피해량 : 125% / 150% / 200</string>
+
 
 
     <!-- cost 5 champion_name -->
     <string name="champion_name_5_1_1">제드</string>
-    <string name="champion_name_5_1_2">브랜드</string>
+    <string name="champion_5_1_1_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_5_1_1_popup_mp">50 / 150</string>
+    <string name="champion_5_1_1_popup_attack">80 / 144 / 288</string>
+    <string name="champion_5_1_1_popup_armor">30</string>
+    <string name="champion_5_1_1_popup_attackspeed">1</string>
+    <string name="champion_5_1_1_popup_attackrange">1</string>
+    <string name="champion_5_1_1_popup_skilldescription">제드가 현재 대상의 뒤편에 자신의 그림자를 소환합니다. 이 그림자는 제드와 동일한 아이템, 능력치, 현재 체력을 가지며 살아있는 번개를 사용할 수 있지만, 마나 소모량이 증가합니다.</string>
+    <string name="champion_5_1_1_popup_skillvalue">추가 마나 소모량 : 50 / 25 / 0</string>
+
+    <string name="champion_name_5_1_2">아무무</string>
+    <string name="champion_5_1_2_popup_hp">900 / 1620 / 3240</string>
+    <string name="champion_5_1_2_popup_mp">50 / 150</string>
+    <string name="champion_5_1_2_popup_attack">55 / 99 / 198</string>
+    <string name="champion_5_1_2_popup_armor">150</string>
+    <string name="champion_5_1_2_popup_attackspeed">0.75</string>
+    <string name="champion_5_1_2_popup_attackrange">1</string>
+    <string name="champion_5_1_2_popup_skilldescription">아무무의 분노가 폭발해 범위 내에 있는 모든 적에게 마법 피해를 입히고 1.5초 동안 기절시킵니다.</string>
+    <string name="champion_5_1_2_popup_skillvalue">피해량 : 200 / 450 / 850 \n범위 : 2 / 3 / 4</string>
+
     <string name="champion_name_5_1_3">나미</string>
+    <string name="champion_5_1_3_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_5_1_3_popup_mp">50 / 125</string>
+    <string name="champion_5_1_3_popup_attack">50 / 90 / 180</string>
+    <string name="champion_5_1_3_popup_armor">25</string>
+    <string name="champion_5_1_3_popup_attackspeed">0.75</string>
+    <string name="champion_5_1_3_popup_attackrange">4</string>
+    <string name="champion_5_1_3_popup_skilldescription">나미가 거대한 해일을 소환하여 적중한 모든 적에게 마법 피해를 입히고 공중으로 띄워 올리며 기절시킵니다. 적중한 아군에게는 강화 효과가 부여되어 8초 동안 기본 공격에 추가 마법 피해가 적용됩니다.</string>
+    <string name="champion_5_1_3_popup_skillvalue">피해량 : 150 / 250 / 350 \n기절 지속 시간: 1.5 / 2 / 2.5 \n추가 피해량 : 25 / 50 / 300</string>
+
     <string name="champion_name_5_1_4">마스터 이</string>
+    <string name="champion_5_1_4_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_5_1_4_popup_mp">100 / 150</string>
+    <string name="champion_5_1_4_popup_attack">70 / 126 / 252</string>
+    <string name="champion_5_1_4_popup_armor">30</string>
+    <string name="champion_5_1_4_popup_attackspeed">1</string>
+    <string name="champion_5_1_4_popup_attackrange">1</string>
+    <string name="champion_5_1_4_popup_skilldescription">마스터 이가 명상에 돌입하여 1초 동안 대상으로 지정할 수 없는 상태가 되고 최대 체력의 30%에 해당하는 체력을 회복합니다. 명상이 끝나고 6초 동안 마스터 이의 공격 속도가 100% 증가하며 적에게 기본 공격 적중 시 추가 마법 피해가 적용됩니다.</string>
+    <string name="champion_5_1_4_popup_skillvalue">추가 피해량 : 50 / 75 / 500</string>
+
     <string name="champion_name_5_1_5">신지드</string>
+    <string name="champion_5_1_5_popup_hp">950 / 1710 / 3420</string>
+    <string name="champion_5_1_5_popup_mp">0</string>
+    <string name="champion_5_1_5_popup_attack">0</string>
+    <string name="champion_5_1_5_popup_armor">50</string>
+    <string name="champion_5_1_5_popup_attackspeed">0</string>
+    <string name="champion_5_1_5_popup_attackrange">0</string>
+    <string name="champion_5_1_5_popup_skilldescription">신지드가 이동 경로에 독구름을 남겨 적들에게 6초 동안 피해를 입힙니다.</string>
+    <string name="champion_5_1_5_popup_skillvalue">피해량 : 150 / 300 / 2000</string>
+
     <string name="champion_name_5_1_6">타릭</string>
+    <string name="champion_5_1_6_popup_hp">900 / 1620 / 3240</string>
+    <string name="champion_5_1_6_popup_mp">50 / 125</string>
+    <string name="champion_5_1_6_popup_attack">60 / 108 / 216</string>
+    <string name="champion_5_1_6_popup_armor">60</string>
+    <string name="champion_5_1_6_popup_attackspeed">0.65</string>
+    <string name="champion_5_1_6_popup_attackrange">1</string>
+    <string name="champion_5_1_6_popup_skilldescription">사용 시 1.5초 후 몇 칸 내에 있는 아군 챔피언을 모두 우주의 에너지로 감싸 몇 초 동안 무적 상태로 만듭니다.</string>
+    <string name="champion_5_1_6_popup_skillvalue">지속 시간 : 3 / 3 / 5\n 범위 : 2 / 3 / 4</string>
 
 
     <!-- cost 7 champion_name -->
     <string name="champion_name_7_1_1">럭스</string>
-
+    <string name="champion_7_1_1_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_7_1_1_popup_mp">0 / 80</string>
+    <string name="champion_7_1_1_popup_attack">65 / 117 / 234</string>
+    <string name="champion_7_1_1_popup_armor">25</string>
+    <string name="champion_7_1_1_popup_attackspeed">0.85</string>
+    <string name="champion_7_1_1_popup_attackrange">4</string>
+    <string name="champion_7_1_1_popup_skilldescription">럭스가 원소를 발사하여 일직선상에 있는 모든 적에게 마법 피해를 입힙니다. 최후의 섬광으로 대상을 처치하면 50의 마나를 돌려받습니다.</string>
+    <string name="champion_7_1_1_popup_skillvalue">피해량 : 600 / 900 / 9999</string>
 
 </resources>

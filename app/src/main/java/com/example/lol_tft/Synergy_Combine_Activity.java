@@ -12,7 +12,7 @@ public class Synergy_Combine_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.synergy_combine);
+        setContentView(R.layout.activity_synergy_combine);
         Button btn_percentage = findViewById(R.id.btn_percentage);
         Button btn_champion = findViewById(R.id.btn_champion);
         Button btn_synergy = findViewById(R.id.btn_synergy);

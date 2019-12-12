@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Champion_Activity"
-    android:orientation="vertical">
-
-
+    android:orientation="vertical"
+    tools:context=".Champion_Activity">
 
 
     <HorizontalScrollView
@@ -22,46 +20,51 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_percentage"
-                android:text="확률"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-            <Button
                 android:id="@+id/btn_champion"
-                android:text="챔피언"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="챔피언" />
+
             <Button
                 android:id="@+id/btn_synergy"
-                android:text="시너지"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="시너지" />
+
             <Button
                 android:id="@+id/btn_synergy_combine"
-                android:text="조합식"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="조합식" />
+
+            <Button
+                android:id="@+id/btn_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="확률" />
+
             <Button
                 android:id="@+id/btn_path_note"
-                android:text="패치 노트"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="패치 노트" />
+
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
+
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 
     </HorizontalScrollView>
 
 
-
     <ScrollView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,8 +76,8 @@
                 android:id="@+id/cost1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
 
                 <LinearLayout
@@ -85,9 +88,9 @@
 
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/icon_cost1" />
 
 
                 </LinearLayout>
@@ -110,18 +113,18 @@
                             android:id="@+id/btn_champion_orrn"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_elec_ornn"/>
+                            android:src="@drawable/cost1_elec_ornn" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_1_1"/>
+                            android:text="@string/champion_name_1_1_1" />
 
-                </LinearLayout>
+                    </LinearLayout>
 
 
                     <LinearLayout
@@ -134,16 +137,16 @@
                             android:id="@+id/btn_champion_diana"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_hellfire_diana"/>
+                            android:src="@drawable/cost1_hellfire_diana" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_1_2"/>
+                            android:text="@string/champion_name_1_1_2" />
 
                     </LinearLayout>
 
@@ -158,16 +161,16 @@
                             android:id="@+id/btn_champion_zyra"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_hellfire_zyra"/>
+                            android:src="@drawable/cost1_hellfire_zyra" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_1_3"/>
+                            android:text="@string/champion_name_1_1_3" />
 
                     </LinearLayout>
 
@@ -182,16 +185,16 @@
                             android:id="@+id/btn_champion_warwick"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_ice_warwick"/>
+                            android:src="@drawable/cost1_ice_warwick" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_1_4"/>
+                            android:text="@string/champion_name_1_1_4" />
 
                     </LinearLayout>
 
@@ -206,16 +209,16 @@
                             android:id="@+id/btn_champion_ivern"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_ivern"/>
+                            android:src="@drawable/cost1_ivern" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_1_5"/>
+                            android:text="@string/champion_name_1_1_5" />
 
                     </LinearLayout>
 
@@ -230,16 +233,16 @@
                             android:id="@+id/btn_champion_kogmaw"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_kogmaw"/>
+                            android:src="@drawable/cost1_kogmaw" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_1_6"/>
+                            android:text="@string/champion_name_1_1_6" />
 
                     </LinearLayout>
 
@@ -261,16 +264,16 @@
                             android:id="@+id/btn_champion_nasus"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_light_nasus"/>
+                            android:src="@drawable/cost1_light_nasus" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_2_1"/>
+                            android:text="@string/champion_name_1_2_1" />
 
                     </LinearLayout>
 
@@ -285,16 +288,16 @@
                             android:id="@+id/btn_champion_vayne"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_light_vayne"/>
+                            android:src="@drawable/cost1_light_vayne" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_2_2"/>
+                            android:text="@string/champion_name_1_2_2" />
 
                     </LinearLayout>
 
@@ -309,16 +312,16 @@
                             android:id="@+id/btn_champion_maokai"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_maokai"/>
+                            android:src="@drawable/cost1_maokai" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_2_3"/>
+                            android:text="@string/champion_name_1_2_3" />
 
                     </LinearLayout>
 
@@ -333,16 +336,16 @@
                             android:id="@+id/btn_champion_renekton"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_renekton"/>
+                            android:src="@drawable/cost1_renekton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_2_4"/>
+                            android:text="@string/champion_name_1_2_4" />
 
                     </LinearLayout>
 
@@ -357,16 +360,16 @@
                             android:id="@+id/btn_champion_vladimir"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_sea_vladimir"/>
+                            android:src="@drawable/cost1_sea_vladimir" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_2_5"/>
+                            android:text="@string/champion_name_1_2_5" />
 
                     </LinearLayout>
 
@@ -381,16 +384,16 @@
                             android:id="@+id/btn_champion_taliyah"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost1_taliyah"/>
+                            android:src="@drawable/cost1_taliyah" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_1_2_6"/>
+                            android:text="@string/champion_name_1_2_6" />
 
                     </LinearLayout>
 
@@ -404,8 +407,8 @@
                 android:id="@+id/cost2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
 
                 <LinearLayout
@@ -416,14 +419,9 @@
 
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/icon_cost2" />
 
 
                 </LinearLayout>
@@ -444,17 +442,17 @@
                             android:id="@+id/btn_champion_braum"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_braum"/>
+                            android:src="@drawable/cost2_braum" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_1_1"/>
+                            android:text="@string/champion_name_2_1_1" />
 
                     </LinearLayout>
 
@@ -468,17 +466,17 @@
                             android:id="@+id/btn_champion_leblanc"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_forest_leblanc"/>
+                            android:src="@drawable/cost2_forest_leblanc" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_1_2"/>
+                            android:text="@string/champion_name_2_1_2" />
 
                     </LinearLayout>
 
@@ -493,16 +491,16 @@
                             android:id="@+id/btn_champion_varus"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_hellfire_varus"/>
+                            android:src="@drawable/cost2_hellfire_varus" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_1_3"/>
+                            android:text="@string/champion_name_2_1_3" />
 
                     </LinearLayout>
 
@@ -517,16 +515,16 @@
                             android:id="@+id/btn_champion_jax"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_light_jax"/>
+                            android:src="@drawable/cost2_light_jax" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_1_4"/>
+                            android:text="@string/champion_name_2_1_4" />
 
                     </LinearLayout>
 
@@ -541,16 +539,16 @@
                             android:id="@+id/btn_champion_neeko"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_neeko"/>
+                            android:src="@drawable/cost2_neeko" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_1_5"/>
+                            android:text="@string/champion_name_2_1_5" />
 
                     </LinearLayout>
 
@@ -565,16 +563,16 @@
                             android:id="@+id/btn_champion_syndra"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_sea_syndra"/>
+                            android:src="@drawable/cost2_sea_syndra" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_1_6"/>
+                            android:text="@string/champion_name_2_1_6" />
 
                     </LinearLayout>
 
@@ -596,16 +594,16 @@
                             android:id="@+id/btn_champion_thresh"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_sea_thresh"/>
+                            android:src="@drawable/cost2_sea_thresh" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_2_1"/>
+                            android:text="@string/champion_name_2_2_1" />
 
                     </LinearLayout>
 
@@ -620,16 +618,16 @@
                             android:id="@+id/btn_champion_senna"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_senna"/>
+                            android:src="@drawable/cost2_senna" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_2_2"/>
+                            android:text="@string/champion_name_2_2_2" />
 
                     </LinearLayout>
 
@@ -644,16 +642,16 @@
                             android:id="@+id/btn_champion_skarner"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_skarner"/>
+                            android:src="@drawable/cost2_skarner" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_2_3"/>
+                            android:text="@string/champion_name_2_2_3" />
 
                     </LinearLayout>
 
@@ -668,16 +666,16 @@
                             android:id="@+id/btn_champion_reksai"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_steel_reksai"/>
+                            android:src="@drawable/cost2_steel_reksai" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_2_4"/>
+                            android:text="@string/champion_name_2_2_4" />
 
                     </LinearLayout>
 
@@ -692,16 +690,16 @@
                             android:id="@+id/btn_champion_malzahar"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_summoner_malzahar"/>
+                            android:src="@drawable/cost2_summoner_malzahar" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_2_5"/>
+                            android:text="@string/champion_name_2_2_5" />
 
                     </LinearLayout>
 
@@ -716,16 +714,16 @@
                             android:id="@+id/btn_champion_volibare"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost2_volibare"/>
+                            android:src="@drawable/cost2_volibare" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_2_2_6"/>
+                            android:text="@string/champion_name_2_2_6" />
 
                     </LinearLayout>
 
@@ -801,8 +799,8 @@
                 android:id="@+id/cost3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -812,19 +810,9 @@
 
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/icon_cost3" />
 
                 </LinearLayout>
 
@@ -840,20 +828,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
+
                         <ImageButton
                             android:id="@+id/btn_champion_azir"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_azir"/>
+                            android:src="@drawable/cost3_azir" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_1_1"/>
+                            android:text="@string/champion_name_3_1_1" />
 
                     </LinearLayout>
 
@@ -868,16 +857,16 @@
                             android:id="@+id/btn_champion_sion"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_berserker_sion"/>
+                            android:src="@drawable/cost3_berserker_sion" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_1_2"/>
+                            android:text="@string/champion_name_3_1_2" />
 
                     </LinearLayout>
 
@@ -892,16 +881,16 @@
                             android:id="@+id/btn_champion_drmondo"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_drmundo"/>
+                            android:src="@drawable/cost3_drmundo" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_1_3"/>
+                            android:text="@string/champion_name_3_1_3" />
 
                     </LinearLayout>
 
@@ -916,16 +905,16 @@
                             android:id="@+id/btn_champion_kindred"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_hellfire_kindred"/>
+                            android:src="@drawable/cost3_hellfire_kindred" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_1_4"/>
+                            android:text="@string/champion_name_3_1_4" />
 
                     </LinearLayout>
 
@@ -940,16 +929,16 @@
                             android:id="@+id/btn_champion_ezreal"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_ice_ezreal"/>
+                            android:src="@drawable/cost3_ice_ezreal" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_1_5"/>
+                            android:text="@string/champion_name_3_1_5" />
 
                     </LinearLayout>
 
@@ -964,16 +953,16 @@
                             android:id="@+id/btn_champion_aatrox"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_light_aatrox"/>
+                            android:src="@drawable/cost3_light_aatrox" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_1_6"/>
+                            android:text="@string/champion_name_3_1_6" />
 
                     </LinearLayout>
 
@@ -996,16 +985,16 @@
                             android:id="@+id/btn_champion_nautilus"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_nautilus"/>
+                            android:src="@drawable/cost3_nautilus" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_2_1"/>
+                            android:text="@string/champion_name_3_2_1" />
 
                     </LinearLayout>
 
@@ -1020,16 +1009,16 @@
                             android:id="@+id/btn_champion_qiyana"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_qiyana"/>
+                            android:src="@drawable/cost3_qiyana" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_2_2"/>
+                            android:text="@string/champion_name_3_2_2" />
 
                     </LinearLayout>
 
@@ -1044,16 +1033,16 @@
                             android:id="@+id/btn_champion_sivir"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_sivir"/>
+                            android:src="@drawable/cost3_sivir" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_2_3"/>
+                            android:text="@string/champion_name_3_2_3" />
 
                     </LinearLayout>
 
@@ -1068,17 +1057,17 @@
                             android:id="@+id/btn_champion_soraka"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_soraka"/>
+                            android:src="@drawable/cost3_soraka" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_2_4"/>
+                            android:text="@string/champion_name_3_2_4" />
 
                     </LinearLayout>
 
@@ -1093,16 +1082,16 @@
                             android:id="@+id/btn_champion_nocturne"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_steel_nocturne"/>
+                            android:src="@drawable/cost3_steel_nocturne" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_2_5"/>
+                            android:text="@string/champion_name_3_2_5" />
 
                     </LinearLayout>
 
@@ -1117,16 +1106,16 @@
                             android:id="@+id/btn_champion_veigar"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
+                            android:layout_weight="1"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:layout_weight="1"
-                            android:src="@drawable/cost3_veigar"/>
+                            android:src="@drawable/cost3_veigar" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_3_2_6"/>
+                            android:text="@string/champion_name_3_2_6" />
 
                     </LinearLayout>
 
@@ -1140,8 +1129,8 @@
                 android:id="@+id/cost4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1150,24 +1139,9 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/icon_cost4" />
 
                 </LinearLayout>
 
@@ -1195,7 +1169,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_1_1"/>
+                            android:text="@string/champion_name_4_1_1" />
 
                     </LinearLayout>
 
@@ -1212,13 +1186,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_brand"/>
+                            android:src="@drawable/cost4_brand" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_1_2"/>
+                            android:text="@string/champion_name_4_1_2" />
 
                     </LinearLayout>
 
@@ -1235,13 +1209,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_crystal_ashe"/>
+                            android:src="@drawable/cost4_crystal_ashe" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_1_3"/>
+                            android:text="@string/champion_name_4_1_3" />
 
                     </LinearLayout>
 
@@ -1258,13 +1232,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_desert_khazix"/>
+                            android:src="@drawable/cost4_desert_khazix" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_1_4"/>
+                            android:text="@string/champion_name_4_1_4" />
 
                     </LinearLayout>
 
@@ -1281,13 +1255,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_ice_olaf"/>
+                            android:src="@drawable/cost4_ice_olaf" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_1_5"/>
+                            android:text="@string/champion_name_4_1_5" />
 
                     </LinearLayout>
 
@@ -1297,19 +1271,20 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
+
                         <ImageButton
                             android:id="@+id/btn_champion_janna"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_janna"/>
+                            android:src="@drawable/cost4_janna" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_1_6"/>
+                            android:text="@string/champion_name_4_1_6" />
 
                     </LinearLayout>
 
@@ -1324,8 +1299,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:orientation="vertical">
 
                         <ImageButton
                             android:id="@+id/btn_champion_yorick"
@@ -1333,13 +1308,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_light_yorick"/>
+                            android:src="@drawable/cost4_light_yorick" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_2_1"/>
+                            android:text="@string/champion_name_4_2_1" />
 
                     </LinearLayout>
 
@@ -1347,8 +1322,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:orientation="vertical">
 
                         <ImageButton
                             android:id="@+id/btn_champion_lucian"
@@ -1356,13 +1331,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost4_lucian"/>
+                            android:src="@drawable/cost4_lucian" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_2_2"/>
+                            android:text="@string/champion_name_4_2_2" />
 
                     </LinearLayout>
 
@@ -1370,8 +1345,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:orientation="vertical">
 
                         <ImageButton
                             android:id="@+id/btn_champion_malphite"
@@ -1385,7 +1360,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_2_3"/>
+                            android:text="@string/champion_name_4_2_3" />
 
                     </LinearLayout>
 
@@ -1393,8 +1368,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:orientation="vertical">
 
                         <ImageButton
                             android:id="@+id/btn_champion_twitch"
@@ -1408,7 +1383,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_4_2_4"/>
+                            android:text="@string/champion_name_4_2_4" />
 
                     </LinearLayout>
 
@@ -1416,14 +1391,14 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:orientation="vertical" />
 
                 </LinearLayout>
 
@@ -1435,8 +1410,8 @@
                 android:id="@+id/cost5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1445,30 +1420,9 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/icon_cost5_7" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -1495,7 +1449,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_5_1_1"/>
+                            android:text="@string/champion_name_5_1_1" />
 
                     </LinearLayout>
 
@@ -1511,13 +1465,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost5_hellfire_amumu"/>
+                            android:src="@drawable/cost5_hellfire_amumu" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_5_1_2"/>
+                            android:text="@string/champion_name_5_1_2" />
 
                     </LinearLayout>
 
@@ -1534,13 +1488,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost5_sea_nami"/>
+                            android:src="@drawable/cost5_sea_nami" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_5_1_3"/>
+                            android:text="@string/champion_name_5_1_3" />
 
                     </LinearLayout>
 
@@ -1557,13 +1511,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost5_shadow_masteryi"/>
+                            android:src="@drawable/cost5_shadow_masteryi" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_5_1_4"/>
+                            android:text="@string/champion_name_5_1_4" />
 
                     </LinearLayout>
 
@@ -1579,13 +1533,13 @@
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost5_singed"/>
+                            android:src="@drawable/cost5_singed" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_5_1_5"/>
+                            android:text="@string/champion_name_5_1_5" />
 
                     </LinearLayout>
 
@@ -1595,19 +1549,20 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
+
                         <ImageButton
                             android:id="@+id/btn_champion_taric"
                             android:layout_width="64dp"
                             android:layout_height="64dp"
                             android:padding="1dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/cost5_taric"/>
+                            android:src="@drawable/cost5_taric" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_5_1_6"/>
+                            android:text="@string/champion_name_5_1_6" />
 
                     </LinearLayout>
 
@@ -1621,8 +1576,8 @@
                 android:id="@+id/cost7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1632,40 +1587,9 @@
 
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/icon_gold"/>
-
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/icon_cost5_7" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -1691,7 +1615,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="@string/champion_name_7_1_1"/>
+                            android:text="@string/champion_name_7_1_1" />
 
                     </LinearLayout>
 
@@ -1699,31 +1623,31 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:orientation="vertical"/>
+                        android:orientation="vertical" />
 
                 </LinearLayout>
 

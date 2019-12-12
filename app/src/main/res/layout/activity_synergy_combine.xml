@@ -20,11 +20,6 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_percentage"
-                android:text="확률"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-            <Button
                 android:id="@+id/btn_champion"
                 android:text="챔피언"
                 android:layout_width="wrap_content"
@@ -37,6 +32,11 @@
             <Button
                 android:id="@+id/btn_synergy_combine"
                 android:text="조합식"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_percentage"
+                android:text="확률"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"/>
             <Button
