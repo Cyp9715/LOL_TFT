@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Synergy_Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Synergy_Activity">
 
 
     <HorizontalScrollView
@@ -22,51 +22,304 @@
 
             <Button
                 android:id="@+id/btn_champion"
-                android:text="챔피언"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="챔피언" />
+
             <Button
                 android:id="@+id/btn_synergy"
-                android:text="시너지"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="시너지" />
+
             <Button
                 android:id="@+id/btn_synergy_combine"
-                android:text="조합식"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="조합식" />
+
             <Button
                 android:id="@+id/btn_percentage"
-                android:text="확률"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="확률" />
+
             <Button
                 android:id="@+id/btn_path_note"
-                android:text="패치 노트"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="패치 노트" />
+
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
+
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 
     </HorizontalScrollView>
 
 
-
     <LinearLayout
+        android:id="@+id/eligible"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="시너지">
-        </TextView>
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#00ff0000"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/trait_glacial" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/trait_glacial" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial_1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost1_ice_warwick" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial_2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost2_volibare" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial_3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost2_braum" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial_4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost3_ice_ezreal" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial_5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost4_ice_olaf" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_glacial_6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost7_lux" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#00ff0000"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/trait_berserker" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/trait_berserker" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker_1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost1_renekton" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker_2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost2_light_jax" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker_3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost2_volibare" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker_4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost3_drmundo" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker_5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost3_berserker_sion" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_berserker_6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost4_ice_olaf" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trait_assassin_content"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#00ff0000"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/trait_assassin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/trait_assassin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin_1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost1_hellfire_diana" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin_2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost2_forest_leblanc" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin_3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost3_steel_nocturne" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin_4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost3_qiyana" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin_5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost4_desert_khazix" />
+
+            <ImageButton
+                android:id="@+id/btn_synergy_assassin_6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/cost5_elec_zed" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trait_assassin_content"/>
 
     </LinearLayout>
 

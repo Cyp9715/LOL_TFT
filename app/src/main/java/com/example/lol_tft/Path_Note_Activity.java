@@ -75,10 +75,13 @@ public class Path_Note_Activity extends AppCompatActivity {
             }
         });
 
+
+
+
         path_webview.setWebViewClient(new WebViewClient());
         webview_setting = path_webview.getSettings();
         webview_setting.setJavaScriptEnabled(true);
-        path_webview.loadUrl("https://www.leagueoflegends.co.kr/ko/update/patchnote/a3709404-eb9a-4140-856e-66c2242d7227");
+        path_webview.loadUrl("https://www.leagueoflegends.co.kr/ko/update/patchnote/");
 
     }
 }

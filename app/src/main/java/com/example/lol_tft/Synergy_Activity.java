@@ -67,5 +67,8 @@ public class Synergy_Activity extends AppCompatActivity {
             }
         });
 
+
+
+
     }
 }

@@ -1,32 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- background color -->
+    <color name='glacial'>#FFFFFF</color>
+
+
     <!-- trait name -->
     <string name="trait_alchemist">연금술사</string>
+    <string name="trait_alchemist_content">(1) 고유 - 연금술사는 충돌을 무시하고 계속 이동합니다.</string>
+
     <string name="trait_assassin">암살자</string>
+    <string name="trait_assassin_content">고유 - 전투 시작 시 암살자는 가장 멀리 있는 적에게 도약합니다, 암살자는 추가 치명타 피해량과 확률을 획득합니다. \n(3) 치명타 피해 +50% 및 치명타 확률 +10% 증가.\n(6) 치명타 피해 +150% 및 치명타 확률 +20% 증가</string>
+
     <string name="trait_avatar">아바타</string>
+    <string name="trait_avatar_content">고유 : 대기석, 전장에 아바타가 있으면, 상점 내 모든 아바타 계열 원소가 해당 아바타 계열 원소로 바뀝니다. \n(1) 특성 추가 효과에 대하여 아바타 계열 원소는 두 번 적용됩니다.</string>
+
     <string name="trait_berserker">광전사</string>
+    <string name="trait_berserker_content">고유 : 전투 시작 시 광전사는 가장 가까이에 있는 적에게 도약합니다. 광전사는 일정 확률로 전방 원뿔 범위의 모든 적에게 피해를 입힐 수 있으며, 이 때 적중 시 효과가 적용됩니다. \n(3) 확률 45% / (6) 확률 100%, 모든 광전사 공격력 +25%</string>
+
     <string name="trait_blademaster">검사</string>
+    <string name="trait_blademaster_content">검사는 기본 공격 시 40% 확률로 대상에게 추가 공격을 가합니다. 추가 공격은 기본 공격과 같은 피해량이며, 적중 시 효과가 적용됩니다. \n(2) 추가 공격 1회 / (4) 추가 공격 2회 / (6) 추가 공격 3회 </string>
+
     <string name="trait_cloud">바람</string>
+    <string name="trait_cloud_content">모든 아군이 일정 확률로 적의 기본 공격을 회피합니다. \n(2) 20% / (3) 25% / (4) 35%</string>
+
     <string name="trait_crystal">수정</string>
+    <string name="trait_crystal_content">수정 챔피언은 단일 공격으로부터, 일정 수치만큼만 피해를 입습니다. \n(2) 최대 피해량 100 / (4) 최대 피해량 60</string>
+
     <string name="trait_desert">사막</string>
+    <string name="trait_desert_content">적의 방어력을 감소시킵니다. \n(2) 50% / (4) 90%</string>
+
     <string name="trait_druid">드루이드</string>
+    <string name="trait_druid_content">(2) 드루이드는 매초 40의 체력을 회복합니다.</string>
+
     <string name="trait_electric">전기</string>
-    <string name="trait_glacial">빙결</string>
+    <string name="trait_electric_content">전기 챔피언은 적에게 치명타 공격을 가하거나, 받을 때 마다 주변 적을 감전 시킵니다. \n(2) 피해량 80 / (3) 피해량 250 / (4) 피해량 500 </string>
+
+    <string name="trait_glacial">빙하</string>
+    <string name="trait_glacial_content">빙하는 기본 공격 시 일정 확률로 대상을 1.5초 동안 기절 시킵니다. \n (2) 20% / (4) 35% / (6) 50%</string>
+
     <string name="trait_inferno">지옥불</string>
+    <string name="trait_inferno_contnet">지옥불 유닛의 치명타 및 스킬 피해는 대상이 있는 지면을 불태워 4초 동안 해당 스킬의 피해량에 비례하여 피해를 입힙니다. \n(3) 1칸에 +70% 피해 / (6) 3칸에 +140% 피해 / (9) 5칸에 +210% 피해</string>
+
     <string name="trait_light">빛</string>
+    <string name="trait_light_contnet">빛 챔피언이 처치당하면 다른 모든 빛 챔피언의 공격 속도가 증가하고, 최대 체력의 25% 만큼 체력을 회복합니다. \n(3) 공격 속도 +15% / (6) 공격 속도 +25% / (9) 공격 속도 +35%</string>
+
     <string name="trait_mage">요술사</string>
+    <string name="trait_mage_content">요술사는 일정 확률로 스킬을 두 번 사용할 수 있습니다. \n(3) 확률 50% / (6) 확률 100%</string>
+
     <string name="trait_mountain">대지</string>
+    <string name="trait_mountain_content">(2) 전투 시작 시 무작위 아군 하나가 1500의 피해를 막아주는 돌방패를 얻습니다.</string>
+
     <string name="trait_mystic">신비술사</string>
+    <string name="trait_mystic_content">모든 아군이 마법 저항력을 얻습니다.\n(2) 마법 저항력 +40 / (4) 마법 저항력 +120</string>
+
     <string name="trait_ocean">바다</string>
+    <string name="trait_ocean_content">4초마다 모든 아군의 마나가 회복됩니다. \n(2) 마나 +15 / (4) 마나 +30 / (6) 마나 +60</string>
+
     <string name="trait_poison">맹독</string>
+    <string name="trait_poison_content">(3) 맹독 챔피언이 피해를 입히면, 대상이 사용하는 스킬의 마나 소모량을 50% 증가 시킵니다.</string>
+
     <string name="trait_predator">포식자</string>
+    <string name="trait_predator_content">(3) 포식자는 체력이 25% 아래인 대상에게 피해를 입히면, 즉시 처치합니다.</string>
+
     <string name="trait_ranger">정찰대</string>
+    <string name="trait_ranger_content">정찰대는 3초마다 일정 확률로 다음 3초동안 공격속도가 2배로 증가합니다. \n (2) 35% 확률 / (4) 80% 확률 / (6) 100% 확률, 공속 2.5배</string>
+
     <string name="trait_shadow">그림자</string>
+    <string name="trait_shadow_content">그림자 챔피언은 전투 시작 / 처치 관여 시 공격력이 4초동안 증가합니다. \n (3) 피해량 +60% / (6) 피해량 +140%, 처치 관여 시 초기화.</string>
+
     <string name="trait_steel">강철</string>
+    <string name="trait_steel_contnet">강철 챔피언은 체력이 50% 아래로 내려가면 몇 초 동안 피해를 입지 않습니다. \n (2) 2초 / (3) 3초 / (4) 4초</string>
+
     <string name="trait_summoner">소환사</string>
+    <string name="trait_summoner_content">소환된 유닛의 체력과 지속시간이 증가합니다. \n(3) 체력 및 소환 지속 시간 +30% / (6) 체력 및 소환 지속시간 +120%</string>
+
     <string name="trait_warden">파수꾼</string>
+    <string name="trait_warden_content">파수꾼의 총 방어력이 증가합니다. \n(2) 방어력 +150% / (4) 방어력 +300% / (6) 방어력 +450%</string>
+
     <string name="trait_woodland">숲</string>
+    <string name="trait_woodland_content">(3) 전투 시작 시 무작위 숲 챔피언 하나가 자신과 동일한 복제 챔피언을 생성합니다. (아이템은 복제되지 않습니다.)</string>
+
     <string name="trait_soulbound">영혼결속자</string>
+    <string name="trait_soulbound_content">(2) 라운드에서 먼저 처치당하는 영혼결속자는 사망하지 않고, 타게팅되지 않으며, 다른 영혼 결속자가 살아있는 한 계속 싸웁니다.</string>
+
     <string name="trait_unknown">유동적</string>
 
 
@@ -59,7 +115,7 @@
     <string name="champion_1_1_3_popup_attackspeed">0.65</string>
     <string name="champion_1_1_3_popup_attackrange">3</string>
     <string name="champion_1_1_3_popup_skilldescription">자이라가 결투장 가장자리의 무작위 지역에 화염 발사 식물을 소환합니다. 화염 발사 식물은 3초 동안 가장 가까운 적에게 공격마다 마법 피해를 입히며 총 4회 공격합니다.</string>
-    <string name="champion_1_1_3_popup_skillvalue">피해량 : 70 / 80 / 90 \n화염 발사 식물 수: 2 / 3 / 4</string>
+    <string name="champion_1_1_3_popup_skillvalue">피해량 : 55 / 65 / 75 \n화염 발사 식물 수: 2 / 3 / 4</string>
 
     <string name="champion_name_1_1_4">워윅</string>
     <string name="champion_1_1_4_popup_hp">650 / 1170 / 2340</string>
@@ -231,7 +287,7 @@
     <string name="champion_2_2_2_popup_attackspeed">0.7</string>
     <string name="champion_2_2_2_popup_attackrange">4</string>
     <string name="champion_2_2_2_popup_skilldescription">세나가 가장 멀리 있는 아군을 관통하는 광선을 발사하여 적에게 마법 피해를 입히고 5초 동안 아군의 적중 시 효과에 마법 피해 효과를 부여합니다. 마법 피해는 세나가 입힌 피해량으로 간주됩니다.</string>
-    <string name="champion_2_2_2_popup_skillvalue">피해량 : 50 / 100 / 150 \n적중시 효과 피해량 : 25 / 45 / 75</string>
+    <string name="champion_2_2_2_popup_skillvalue">피해량 : 50 / 100 / 150 \n적중시 효과 피해량 : 15 / 30 / 55</string>
 
     <string name="champion_name_2_2_3">스카너</string>
     <string name="champion_2_2_3_popup_hp">650 / 1170 / 2340</string>
@@ -246,7 +302,7 @@
     <string name="champion_name_2_2_4">렉사이</string>
     <string name="champion_2_2_4_popup_hp">650 / 1170 / 2340</string>
     <string name="champion_2_2_4_popup_mp">0 / 75</string>
-    <string name="champion_2_2_4_popup_attack">65 / 117 / 234</string>
+    <string name="champion_2_2_4_popup_attack">60 / 117 / 234</string>
     <string name="champion_2_2_4_popup_armor">30</string>
     <string name="champion_2_2_4_popup_attackspeed">0.7</string>
     <string name="champion_2_2_4_popup_attackrange">1</string>
@@ -393,7 +449,7 @@
     <string name="champion_3_2_5_popup_attackspeed">0.75</string>
     <string name="champion_3_2_5_popup_attackrange">1</string>
     <string name="champion_3_2_5_popup_skilldescription">기본 지속 효과 - 녹턴의 기본 공격이 세 번 적중할 때마다 공격이 강화되어 주변의 모든 적에게 피해를 입히고 적중 시 효과가 적용됩니다. 또한 녹턴이 피해량의 일정 비율만큼 자신의 체력을 회복합니다.</string>
-    <string name="champion_3_2_5_popup_skillvalue">회복 비율 : 40% / 60% / 80%</string>
+    <string name="champion_3_2_5_popup_skillvalue">회복 비율 : 40% / 45% / 50%</string>
 
     <string name="champion_name_3_2_6">베이가</string>
     <string name="champion_3_2_6_popup_hp">600 / 1080 / 2160</string>
@@ -419,7 +475,7 @@
 
     <string name="champion_name_4_1_2">브랜드</string>
     <string name="champion_4_1_2_popup_hp">700 / 1260 / 2520</string>
-    <string name="champion_4_1_2_popup_mp">0 / 90</string>
+    <string name="champion_4_1_2_popup_mp">0 / 80</string>
     <string name="champion_4_1_2_popup_attack">55 / 99 / 198</string>
     <string name="champion_4_1_2_popup_armor">25</string>
     <string name="champion_4_1_2_popup_attackspeed">0.7</string>
@@ -435,7 +491,7 @@
     <string name="champion_4_1_3_popup_attackspeed">0.8</string>
     <string name="champion_4_1_3_popup_attackrange">4</string>
     <string name="champion_4_1_3_popup_skilldescription">5초 동안 애쉬의 공격 속도가 오르며 기본 공격이 다발 공격으로 변경되어 물리 피해를 입힙니다.</string>
-    <string name="champion_4_1_3_popup_skillvalue">추가 공격 속도 : 50% / 75% / 250% \n추가 피해량 : 125% / 130% / 135%</string>
+    <string name="champion_4_1_3_popup_skillvalue">추가 공격 속도 : 50% / 75% / 250% \n추가 피해량 : 130% / 135% / 140%</string>
 
     <string name="champion_name_4_1_4">카직스</string>
     <string name="champion_4_1_4_popup_hp">750 / 1350 / 2700</string>
@@ -499,8 +555,8 @@
 
     <string name="champion_name_4_2_4">트위치</string>
     <string name="champion_4_2_4_popup_hp">650 / 1170 / 2340</string>
-    <string name="champion_4_2_4_popup_mp">0 / 90</string>
-    <string name="champion_4_2_4_popup_attack">60 / 108 / 216</string>
+    <string name="champion_4_2_4_popup_mp">0 / 70</string>
+    <string name="champion_4_2_4_popup_attack">65 / 108 / 216</string>
     <string name="champion_4_2_4_popup_armor">20</string>
     <string name="champion_4_2_4_popup_attackspeed">0.75</string>
     <string name="champion_4_2_4_popup_attackrange">4</string>
@@ -508,13 +564,12 @@
     <string name="champion_4_2_4_popup_skillvalue">추가 피해량 : 125% / 150% / 200</string>
 
 
-
     <!-- cost 5 champion_name -->
     <string name="champion_name_5_1_1">제드</string>
     <string name="champion_5_1_1_popup_hp">850 / 1530 / 3060</string>
     <string name="champion_5_1_1_popup_mp">50 / 150</string>
-    <string name="champion_5_1_1_popup_attack">80 / 144 / 288</string>
-    <string name="champion_5_1_1_popup_armor">30</string>
+    <string name="champion_5_1_1_popup_attack">70 / 144 / 288</string>
+    <string name="champion_5_1_1_popup_armor">25</string>
     <string name="champion_5_1_1_popup_attackspeed">1</string>
     <string name="champion_5_1_1_popup_attackrange">1</string>
     <string name="champion_5_1_1_popup_skilldescription">제드가 현재 대상의 뒤편에 자신의 그림자를 소환합니다. 이 그림자는 제드와 동일한 아이템, 능력치, 현재 체력을 가지며 살아있는 번개를 사용할 수 있지만, 마나 소모량이 증가합니다.</string>
@@ -522,13 +577,13 @@
 
     <string name="champion_name_5_1_2">아무무</string>
     <string name="champion_5_1_2_popup_hp">900 / 1620 / 3240</string>
-    <string name="champion_5_1_2_popup_mp">50 / 150</string>
+    <string name="champion_5_1_2_popup_mp">50 / 125</string>
     <string name="champion_5_1_2_popup_attack">55 / 99 / 198</string>
     <string name="champion_5_1_2_popup_armor">150</string>
     <string name="champion_5_1_2_popup_attackspeed">0.75</string>
     <string name="champion_5_1_2_popup_attackrange">1</string>
     <string name="champion_5_1_2_popup_skilldescription">아무무의 분노가 폭발해 범위 내에 있는 모든 적에게 마법 피해를 입히고 1.5초 동안 기절시킵니다.</string>
-    <string name="champion_5_1_2_popup_skillvalue">피해량 : 200 / 450 / 850 \n범위 : 2 / 3 / 4</string>
+    <string name="champion_5_1_2_popup_skillvalue">피해량 : 200 / 450 / 850 \n범위 : 3 / 3 / 3</string>
 
     <string name="champion_name_5_1_3">나미</string>
     <string name="champion_5_1_3_popup_hp">750 / 1350 / 2700</string>
