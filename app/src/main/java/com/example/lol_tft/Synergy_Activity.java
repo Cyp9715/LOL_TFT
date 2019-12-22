@@ -13,21 +13,11 @@ public class Synergy_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_synergy);
-        Button btn_percentage = findViewById(R.id.btn_percentage);
         Button btn_champion = findViewById(R.id.btn_champion);
         Button btn_synergy = findViewById(R.id.btn_synergy);
-        Button synergy_combine = findViewById(R.id.btn_synergy_combine);
+        Button btn_item = findViewById(R.id.btn_item);
         Button btn_path_note = findViewById(R.id.btn_path_note);
 
-
-        btn_percentage.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View view){
-                Intent intent_percentage = new Intent(getApplicationContext(), Percentage_Activity.class);
-                startActivity(intent_percentage);
-                overridePendingTransition(0, 0);
-                finish();
-            }
-        });
 
         btn_champion.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
@@ -48,9 +38,9 @@ public class Synergy_Activity extends AppCompatActivity {
         });
 
 
-        synergy_combine.setOnClickListener(new Button.OnClickListener(){
+        btn_item.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
-                Intent intent_synergy_combine = new Intent(getApplicationContext(), Synergy_Combine_Activity.class);
+                Intent intent_synergy_combine = new Intent(getApplicationContext(), Item_Activity.class);
                 startActivity(intent_synergy_combine);
                 overridePendingTransition(0, 0);
                 finish();

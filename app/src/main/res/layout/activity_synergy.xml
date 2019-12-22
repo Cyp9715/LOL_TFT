@@ -9,318 +9,2109 @@
 
 
     <HorizontalScrollView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none">
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
 
             <Button
                 android:id="@+id/btn_champion"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="챔피언" />
 
             <Button
                 android:id="@+id/btn_synergy"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="시너지" />
 
             <Button
-                android:id="@+id/btn_synergy_combine"
+                android:id="@+id/btn_item"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="조합식" />
-
-            <Button
-                android:id="@+id/btn_percentage"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="확률" />
+                android:layout_weight="1"
+                android:text="아이템" />
 
             <Button
                 android:id="@+id/btn_path_note"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="패치 노트" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
 
         </LinearLayout>
 
     </HorizontalScrollView>
 
-
-    <LinearLayout
-        android:id="@+id/eligible"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:id="@+id/eligible"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#00ff0000"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/trait_glacial" />
-
-            <TextView
-                android:layout_width="wrap_content"
+            <!--1 glacial -->
+            <LinearLayout
+                android:id="@+id/synergy_glacial"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/trait_glacial" />
-        </LinearLayout>
+                android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_glacial" />
 
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial_1"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_gravity="center"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost1_ice_warwick" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_glacial" />
+                </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial_2"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost2_volibare" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial_3"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost2_braum" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial_4"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost3_ice_ezreal" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial_5"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost4_ice_olaf" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_glacial_6"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost7_lux" />
-
-        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial_1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_ice_warwick" />
 
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#00ff0000"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/trait_berserker" />
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial_2"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_volibare" />
 
-            <TextView
-                android:layout_width="wrap_content"
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial_3"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_braum" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial_4"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_ice_ezreal" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial_5"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_ice_olaf" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_glacial_6"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_glacial_content" />
+
+            </LinearLayout>
+
+            <!--2 berserker -->
+            <LinearLayout
+                android:id="@+id/synergy_berserker"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/trait_berserker" />
-        </LinearLayout>
+                android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_berserker" />
 
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker_1"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_gravity="center"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost1_renekton" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_berserker" />
+                </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker_2"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost2_light_jax" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker_3"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost2_volibare" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker_4"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost3_drmundo" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker_5"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost3_berserker_sion" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_berserker_6"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost4_ice_olaf" />
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/trait_assassin_content"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker_1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_renekton" />
 
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#00ff0000"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/trait_assassin" />
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker_2"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_light_jax" />
 
-            <TextView
-                android:layout_width="wrap_content"
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker_3"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_volibare" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker_4"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_drmundo" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker_5"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_berserker_sion" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_berserker_6"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_ice_olaf" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_berserker_content" />
+
+            </LinearLayout>
+
+            <!--3 assassin -->
+            <LinearLayout
+                android:id="@+id/synergy_assassin"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/trait_assassin" />
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_assassin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_assassin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin_1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_hellfire_diana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin_2"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_forest_leblanc" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin_3"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_steel_nocturne" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin_4"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_qiyana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin_5"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_desert_khazix" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_assassin_6"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_elec_zed" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_assassin_content" />
+
+            </LinearLayout>
+
+            <!--4 light -->
+            <LinearLayout
+                android:id="@+id/synergy_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_light" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_light" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_light_vayne" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_light_nasus" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_light_jax" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_light_aatrox" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_soraka" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_lucian" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_7"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_light_yorick" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_light_8"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_light_content" />
+
+            </LinearLayout>
+
+            <!--5 hellfire -->
+            <LinearLayout
+                android:id="@+id/synergy_inferno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_inferno" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_inferno" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_hellfire_zyra" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_hellfire_diana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_hellfire_varus" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_hellfire_kindred" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_qiyana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_annie" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_7"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_brand" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_8"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_hellfire_amumu" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_inferno_9"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_assassin_content" />
+
+            </LinearLayout>
+
+            <!--6 blademaster -->
+            <LinearLayout
+                android:id="@+id/synergy_blademaster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_blademaster"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_blademaster" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_blademaster" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_blademaster_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_yasuo" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_blademaster_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_light_aatrox" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_blademaster_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_sivir" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_blademaster_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_shadow_masteryi" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_assassin_content" />
+
+            </LinearLayout>
+
+            <!--7 mage -->
+            <LinearLayout
+                android:id="@+id/synergy_mage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_mage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_mage" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_taliyah" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_sea_vladimir" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_forest_leblanc" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_sea_syndra" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_veigar" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mage_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_brand" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_assassin_content" />
+
+            </LinearLayout>
+
+            <!--8 warden -->
+            <LinearLayout
+                android:id="@+id/synergy_warden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_warden" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_warden" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_light_nasus" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_elec_ornn" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_braum" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_sea_thresh" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_nautilus" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_malphite" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_7"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_hellfire_amumu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_warden_8"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_taric" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_assassin_content" />
+
+            </LinearLayout>
+
+
+            <!--9 summoner -->
+            <LinearLayout
+                android:id="@+id/synergy_summoner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_summoner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_summoner" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_hellfire_zyra" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_summoner_malzahar" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_azir" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_annie" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_light_yorick" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_summoner_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_elec_zed" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_summoner_content" />
+
+            </LinearLayout>
+
+            <!--10 soulbound -->
+            <LinearLayout
+                android:id="@+id/synergy_soulbound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_soulbound"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_soulbound" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_soulbound" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_soulbound_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_senna" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_soulbound_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_lucian" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_soulbound_content" />
+
+            </LinearLayout>
+
+            <!--11 ranger -->
+            <LinearLayout
+                android:id="@+id/synergy_ranger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_ranger" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_ranger" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_light_vayne" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_hellfire_varus" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_ice_ezreal" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_hellfire_kindred" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_crystal_ashe" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ranger_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_twitch" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_ranger_content" />
+
+            </LinearLayout>
+
+            <!--12 predator -->
+            <LinearLayout
+                android:id="@+id/synergy_predator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_predator"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_predator" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_predator" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_predator_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_kogmaw" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_predator_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_ice_warwick" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_predator_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_steel_reksai" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_predator_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_skarner" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_predator_content" />
+
+            </LinearLayout>
+
+            <!--13 mystic -->
+            <LinearLayout
+                android:id="@+id/synergy_mystic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mystic"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_mystic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_mystic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mystic_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_soraka" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mystic_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_janna" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mystic_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_shadow_masteryi" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mystic_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_sea_nami" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_mystic_content" />
+
+            </LinearLayout>
+
+            <!--14 druid -->
+            <LinearLayout
+                android:id="@+id/synergy_druid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_druid"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_druid" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_druid" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_druid_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_ivern" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_druid_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_maokai" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_druid_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_neeko" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_druid_content" />
+
+            </LinearLayout>
+
+            <!--15 avatar -->
+            <LinearLayout
+                android:id="@+id/synergy_avator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_avator"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_mystic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_mystic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_avator_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_avatar_content" />
+
+            </LinearLayout>
+
+            <!--16 alchemist -->
+            <LinearLayout
+                android:id="@+id/synergy_alchemist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_alchemist"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_alchemist" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_alchemist" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_alchemist_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_singed" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_alchemist_content" />
+
+            </LinearLayout>
+
+            <!--14 woodland -->
+            <LinearLayout
+                android:id="@+id/synergy_woodland"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_woodland"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_woodland" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_woodland" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_woodland_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_ivern" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_woodland_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_maokai" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_woodland_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_forest_leblanc" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_woodland_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_neeko" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_woodland_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_woodland_content" />
+
+            </LinearLayout>
+
+            <!--15 cloud -->
+            <LinearLayout
+                android:id="@+id/synergy_cloud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_cloud"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_cloud" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_cloud" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_cloud_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_yasuo" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_cloud_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_qiyana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_cloud_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_janna" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_cloud_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_cloud_content" />
+
+            </LinearLayout>
+
+            <!--16 steel -->
+            <LinearLayout
+                android:id="@+id/synergy_steel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_steel"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_steel" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_steel" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_steel_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_steel_reksai" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_steel_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_steel_nocturne" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_steel_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_steel_content" />
+
+            </LinearLayout>
+
+            <!--17 poison -->
+            <LinearLayout
+                android:id="@+id/synergy_poison"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_poison"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_poison" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_poison" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_poison_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_kogmaw" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_poison_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_drmundo" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_poison_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_twitch" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_poison_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_singed" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_poison_content" />
+
+            </LinearLayout>
+
+            <!--18 ocean -->
+            <LinearLayout
+                android:id="@+id/synergy_ocean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_ocean" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_ocean" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_sea_vladimir" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_sea_syndra" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost2_sea_thresh" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_nautilus" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_5"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_qiyana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_6"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost5_sea_nami" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_ocean_7"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost7_lux" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_ocean_content" />
+
+            </LinearLayout>
+
+            <!--19 Mountain -->
+            <LinearLayout
+                android:id="@+id/synergy_mauntain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mountain"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_mountain" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_mountain" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mountain_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_taliyah" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mountain_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_qiyana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_mountain_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_malphite" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_mountain_content" />
+
+            </LinearLayout>
+
+            <!--20 electric -->
+            <LinearLayout
+                android:id="@+id/synergy_electric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_electric"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_electric" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_electric" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_electric_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_taliyah" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_electric_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_qiyana" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_electric_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_malphite" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_electric_content" />
+
+            </LinearLayout>
+
+            <!--20 desert -->
+            <LinearLayout
+                android:id="@+id/synergy_desert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_desert"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_desert" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_desert" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_desert_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_renekton" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_desert_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_azir" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_desert_3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_sivir" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_desert_4"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost4_desert_khazix" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_desert_content" />
+
+            </LinearLayout>
+
+
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin_1"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_gravity="center"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost1_hellfire_diana" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin_2"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost2_forest_leblanc" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin_3"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost3_steel_nocturne" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin_4"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost3_qiyana" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin_5"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost4_desert_khazix" />
-
-            <ImageButton
-                android:id="@+id/btn_synergy_assassin_6"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:padding="1dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/cost5_elec_zed" />
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/trait_assassin_content"/>
-
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

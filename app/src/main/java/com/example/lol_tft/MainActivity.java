@@ -4,14 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
-import android.widget.PopupWindow;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,19 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn_percentage = findViewById(R.id.btn_percentage);
         Button btn_champion = findViewById(R.id.btn_champion);
         Button btn_synergy = findViewById(R.id.btn_synergy);
-        Button synergy_combine = findViewById(R.id.btn_synergy_combine);
+        Button btn_item = findViewById(R.id.btn_item);
         Button btn_path_note = findViewById(R.id.btn_path_note);
 
-
-        btn_percentage.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View view){
-                Intent intent_percentage = new Intent(getApplicationContext(), Percentage_Activity.class);
-                startActivity(intent_percentage);
-            }
-        });
 
         btn_champion.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
@@ -47,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        synergy_combine.setOnClickListener(new Button.OnClickListener(){
+        btn_item.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
-                Intent intent_synergy_combine = new Intent(getApplicationContext(), Synergy_Combine_Activity.class);
+                Intent intent_synergy_combine = new Intent(getApplicationContext(), Item_Activity.class);
                 startActivity(intent_synergy_combine);
             }
         });

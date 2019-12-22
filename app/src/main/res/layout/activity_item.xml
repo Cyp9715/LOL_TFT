@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Item_Activity">
+
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/btn_champion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="챔피언" />
+
+            <Button
+                android:id="@+id/btn_synergy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="시너지" />
+
+            <Button
+                android:id="@+id/btn_item"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="아이템" />
+
+            <Button
+                android:id="@+id/btn_path_note"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="패치 노트" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <!-- 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_bf_sword" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_recurve_bow" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_chain_vest" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_negatron_cloak" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_needlessly_large_rod" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_tear_of_the_goddess" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_giant_belt" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_sparring_gloves" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_spatula" />
+
+
+            </LinearLayout>
+
+            <!-- 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_bf_sword" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_deathblade" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_giant_slayer" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_guardian_angel" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_blood_thirster" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_gunblade" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_spear_of_shojin" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_zekes_herald" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_infinity_edge" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_youmuu" />
+
+
+            </LinearLayout>
+
+            <!-- 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_recurve_bow" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_giant_slayer" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_rapid_firecannon" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_phantom_dancer" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_runaan_hurricane" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_guinsoo_rageblade" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_statikk_shiv" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_hydra" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_repeating_crossbow" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_blade_of_ruined_king" />
+
+
+            </LinearLayout>
+
+            <!-- 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_chain_vest" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_guardian_angel" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_phantom_dancer" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_thornmail" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_sword_breaker" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_locat_of_the_iron_solari" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_frozen_heart" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_redbuff" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_iceborne_gauntlet" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_warden_mail" />
+
+
+            </LinearLayout>
+
+            <!-- 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_negatron_cloak" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_blood_thirster" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_runaan_hurricane" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_sword_breaker" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_dragon_claw" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_ionic_spark" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_hush" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_zephyr" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_quicksilver" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_talisman_of_light" />
+
+
+            </LinearLayout>
+
+            <!-- 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_needlessly_large_rod" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_gunblade" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_guinsoo_rageblade" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_locat_of_the_iron_solari" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_ionic_spark" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_rabadon_deathcap" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_luden_echo" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_morellonomicon" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_jeweled_gauntlet" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_inferno_cinder" />
+
+
+            </LinearLayout>
+
+            <!-- 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_tear_of_the_goddess" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_spear_of_shojin" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_statikk_shiv" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_frozen_heart" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_hush" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_luden_echo" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_seraph_embrace" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_redemption" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_hand_of_justice" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_mage_cap" />
+
+
+            </LinearLayout>
+
+            <!-- 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_giant_belt" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_zekes_herald" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_hydra" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_redbuff" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_zephyr" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_morellonomicon" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_redemption" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_warnog" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_trap_claw" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_frozen_mallet" />
+
+
+            </LinearLayout>
+
+            <!-- 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_sparring_gloves" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_infinity_edge" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_repeating_crossbow" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_iceborne_gauntlet" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_quicksilver" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_jeweled_gauntlet" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_hand_of_justice" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_trap_claw" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_thief_gloves" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_berserker_axe" />
+
+
+            </LinearLayout>
+
+            <!-- 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:weightSum="10">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_spatula" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_youmuu" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_blade_of_ruined_king" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_warden_mail" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_talisman_of_light" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_inferno_cinder" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_mage_cap" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_frozen_mallet" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_berserker_axe" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/item_force_of_nature" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

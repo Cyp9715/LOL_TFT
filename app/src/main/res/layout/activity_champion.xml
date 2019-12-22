@@ -9,53 +9,44 @@
 
 
     <HorizontalScrollView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none">
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:weightSum="4"
+            android:layout_gravity="center"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_champion"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="챔피언" />
 
             <Button
                 android:id="@+id/btn_synergy"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="시너지" />
 
             <Button
-                android:id="@+id/btn_synergy_combine"
+                android:id="@+id/btn_item"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="조합식" />
-
-            <Button
-                android:id="@+id/btn_percentage"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="확률" />
+                android:layout_weight="1"
+                android:text="아이템" />
 
             <Button
                 android:id="@+id/btn_path_note"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="패치 노트" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
 
         </LinearLayout>
 
@@ -106,6 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
 
@@ -121,7 +113,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_1_1" />
 
                     </LinearLayout>
@@ -131,6 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -145,7 +137,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_1_2" />
 
                     </LinearLayout>
@@ -155,6 +146,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -169,7 +161,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_1_3" />
 
                     </LinearLayout>
@@ -179,6 +170,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -193,7 +185,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_1_4" />
 
                     </LinearLayout>
@@ -203,6 +194,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -217,7 +209,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_1_5" />
 
                     </LinearLayout>
@@ -227,6 +218,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -241,7 +233,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_1_6" />
 
                     </LinearLayout>
@@ -258,6 +249,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -272,7 +264,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_2_1" />
 
                     </LinearLayout>
@@ -282,6 +273,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -296,7 +288,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_2_2" />
 
                     </LinearLayout>
@@ -306,6 +297,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -320,7 +312,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_2_3" />
 
                     </LinearLayout>
@@ -330,6 +321,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -344,7 +336,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_2_4" />
 
                     </LinearLayout>
@@ -354,6 +345,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -368,7 +360,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_2_5" />
 
                     </LinearLayout>
@@ -378,6 +369,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -392,7 +384,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_1_2_6" />
 
                     </LinearLayout>
@@ -436,6 +427,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -451,7 +443,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_1_1" />
 
                     </LinearLayout>
@@ -460,6 +451,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -475,7 +467,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_1_2" />
 
                     </LinearLayout>
@@ -485,6 +476,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -499,7 +491,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_1_3" />
 
                     </LinearLayout>
@@ -509,6 +500,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -523,7 +515,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_1_4" />
 
                     </LinearLayout>
@@ -533,6 +524,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -547,7 +539,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_1_5" />
 
                     </LinearLayout>
@@ -557,6 +548,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -571,7 +563,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_1_6" />
 
                     </LinearLayout>
@@ -588,6 +579,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -602,7 +594,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_2_1" />
 
                     </LinearLayout>
@@ -612,6 +603,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -626,7 +618,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_2_2" />
 
                     </LinearLayout>
@@ -636,6 +627,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -650,7 +642,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_2_3" />
 
                     </LinearLayout>
@@ -660,6 +651,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -674,7 +666,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_2_4" />
 
                     </LinearLayout>
@@ -684,6 +675,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -698,7 +690,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_2_5" />
 
                     </LinearLayout>
@@ -708,6 +699,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -722,7 +714,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_2_6" />
 
                     </LinearLayout>
@@ -740,6 +731,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -753,7 +745,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_2_3_1" />
 
                     </LinearLayout>
@@ -827,6 +818,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -841,7 +833,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_1_1" />
 
                     </LinearLayout>
@@ -851,6 +842,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -865,7 +857,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_1_2" />
 
                     </LinearLayout>
@@ -875,6 +866,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -889,7 +881,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_1_3" />
 
                     </LinearLayout>
@@ -898,6 +889,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
@@ -913,7 +905,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_1_4" />
 
                     </LinearLayout>
@@ -923,6 +914,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -937,7 +929,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_1_5" />
 
                     </LinearLayout>
@@ -947,6 +938,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -961,7 +953,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_1_6" />
 
                     </LinearLayout>
@@ -979,6 +970,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -993,7 +985,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_2_1" />
 
                     </LinearLayout>
@@ -1003,6 +994,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1017,7 +1009,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_2_2" />
 
                     </LinearLayout>
@@ -1027,6 +1018,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1041,7 +1033,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_2_3" />
 
                     </LinearLayout>
@@ -1051,6 +1042,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1066,7 +1058,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_2_4" />
 
                     </LinearLayout>
@@ -1076,6 +1067,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1090,7 +1082,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_2_5" />
 
                     </LinearLayout>
@@ -1100,6 +1091,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1114,7 +1106,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_3_2_6" />
 
                     </LinearLayout>
@@ -1154,6 +1145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1168,7 +1160,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_1_1" />
 
                     </LinearLayout>
@@ -1178,6 +1169,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1191,7 +1183,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_1_2" />
 
                     </LinearLayout>
@@ -1201,6 +1192,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1214,7 +1206,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_1_3" />
 
                     </LinearLayout>
@@ -1224,6 +1215,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1237,7 +1229,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_1_4" />
 
                     </LinearLayout>
@@ -1247,6 +1238,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1260,7 +1252,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_1_5" />
 
                     </LinearLayout>
@@ -1270,6 +1261,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1283,7 +1275,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_1_6" />
 
                     </LinearLayout>
@@ -1300,6 +1291,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1313,7 +1305,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_2_1" />
 
                     </LinearLayout>
@@ -1323,6 +1314,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1336,7 +1328,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_2_2" />
 
                     </LinearLayout>
@@ -1346,6 +1337,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1359,7 +1351,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_2_3" />
 
                     </LinearLayout>
@@ -1369,6 +1360,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1382,7 +1374,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_4_2_4" />
 
                     </LinearLayout>
@@ -1434,6 +1425,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1448,7 +1440,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_5_1_1" />
 
                     </LinearLayout>
@@ -1457,6 +1448,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1470,7 +1462,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_5_1_2" />
 
                     </LinearLayout>
@@ -1480,6 +1471,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1493,7 +1485,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_5_1_3" />
 
                     </LinearLayout>
@@ -1503,6 +1494,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1516,7 +1508,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_5_1_4" />
 
                     </LinearLayout>
@@ -1525,6 +1516,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1538,7 +1530,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_5_1_5" />
 
                     </LinearLayout>
@@ -1548,6 +1539,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1561,7 +1553,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_5_1_6" />
 
                     </LinearLayout>
@@ -1601,6 +1592,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <ImageButton
@@ -1614,7 +1606,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:text="@string/champion_name_7_1_1" />
 
                     </LinearLayout>

@@ -3,70 +3,67 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
     <HorizontalScrollView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none">
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
 
             <Button
                 android:id="@+id/btn_champion"
-                android:text="챔피언"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="챔피언" />
+
             <Button
                 android:id="@+id/btn_synergy"
-                android:text="시너지"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="시너지" />
+
             <Button
-                android:id="@+id/btn_synergy_combine"
-                android:text="조합식"
+                android:id="@+id/btn_item"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-            <Button
-                android:id="@+id/btn_percentage"
-                android:text="확률"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="아이템" />
+
             <Button
                 android:id="@+id/btn_path_note"
-                android:text="패치 노트"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="패치 노트" />
 
         </LinearLayout>
 
     </HorizontalScrollView>
 
 
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="개굴개굴">
-        </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainviewmsg" />
+
 
     </LinearLayout>
 

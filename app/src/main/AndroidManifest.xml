@@ -17,10 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Percentage_Activity" android:label="Champion 액티비티"/>
         <activity android:name=".Champion_Activity" android:label="Champion 액티비티"/>
         <activity android:name=".Synergy_Activity" android:label="Champion 액티비티"/>
-        <activity android:name=".Synergy_Combine_Activity" android:label="Champion 액티비티"/>
+        <activity android:name=".Item_Activity" android:label="Champion 액티비티"/>
         <activity android:name=".Path_Note_Activity" android:label = "Path_Note 액티비티"/>
 
     </application>
