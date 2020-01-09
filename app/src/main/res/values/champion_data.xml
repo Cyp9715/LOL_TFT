@@ -25,7 +25,7 @@
     <string name="trait_desert">사막</string>
     <string name="trait_desert_content">적의 방어력을 감소시킵니다. \n(2) 50% / (4) 90%</string>
     <string name="trait_druid">드루이드</string>
-    <string name="trait_druid_content">(2) 드루이드는 매초 40의 체력을 회복합니다.</string>
+    <string name="trait_druid_content">(2) 드루이드는 매초 45의 체력을 회복합니다.</string>
     <string name="trait_electric">전기</string>
     <string name="trait_electric_content">전기 챔피언은 적에게 치명타 공격을 가하거나, 받을 때 마다 주변 적을 감전 시킵니다. \n(2) 피해량 80 / (3) 피해량 250 / (4) 피해량 500 </string>
     <string name="trait_glacial">빙하</string>
@@ -33,7 +33,7 @@
     <string name="trait_inferno">지옥불</string>
     <string name="trait_inferno_content">지옥불 유닛의 치명타 및 스킬 피해는 대상이 있는 지면을 불태워 4초 동안 해당 스킬의 피해량에 비례하여 피해를 입힙니다. \n(3) 1칸에 +70% 피해 / (6) 3칸에 +140% 피해 / (9) 5칸에 +210% 피해</string>
     <string name="trait_light">빛</string>
-    <string name="trait_light_content">빛 챔피언이 처치당하면 다른 모든 빛 챔피언의 공격 속도가 증가하고, 최대 체력의 25% 만큼 체력을 회복합니다. \n(3) 공격 속도 +15% / (6) 공격 속도 +25% / (9) 공격 속도 +35%</string>
+    <string name="trait_light_content">빛 챔피언이 처치당하면 다른 모든 빛 챔피언의 공격 속도가 증가하고, 최대 체력의 25% 만큼 체력을 회복합니다. \n(3) 공격 속도 +15% / (6) 공격 속도 +35% / (9) 공격 속도 +55%</string>
     <string name="trait_mage">요술사</string>
     <string name="trait_mage_content">요술사는 일정 확률로 스킬을 두 번 사용할 수 있습니다. \n(3) 확률 50% / (6) 확률 100%</string>
     <string name="trait_mountain">대지</string>
@@ -41,7 +41,7 @@
     <string name="trait_mystic">신비술사</string>
     <string name="trait_mystic_content">모든 아군이 마법 저항력을 얻습니다.\n(2) 마법 저항력 +40 / (4) 마법 저항력 +120</string>
     <string name="trait_ocean">바다</string>
-    <string name="trait_ocean_content">4초마다 모든 아군의 마나가 회복됩니다. \n(2) 마나 +15 / (4) 마나 +30 / (6) 마나 +60</string>
+    <string name="trait_ocean_content">4초마다 모든 아군의 마나가 회복됩니다. \n(2) 마나 +10 / (4) 마나 +30 / (6) 마나 +60</string>
     <string name="trait_poison">맹독</string>
     <string name="trait_poison_content">(3) 맹독 챔피언이 피해를 입히면, 대상이 사용하는 스킬의 마나 소모량을 50% 증가 시킵니다.</string>
     <string name="trait_predator">포식자</string>
@@ -49,7 +49,7 @@
     <string name="trait_ranger">정찰대</string>
     <string name="trait_ranger_content">정찰대는 3초마다 일정 확률로 다음 3초동안 공격속도가 2배로 증가합니다. \n (2) 35% 확률 / (4) 80% 확률 / (6) 100% 확률, 공속 2.5배</string>
     <string name="trait_shadow">그림자</string>
-    <string name="trait_shadow_content">그림자 챔피언은 전투 시작 / 처치 관여 시 공격력이 4초동안 증가합니다. \n (3) 피해량 +60% / (6) 피해량 +140%, 처치 관여 시 초기화.</string>
+    <string name="trait_shadow_content">그림자 챔피언은 전투 시작 / 처치 관여 시 공격력이 4초동안 증가합니다. \n (3) 피해량 +65% / (6) 피해량 +150%, 처치 관여 시 초기화.</string>
     <string name="trait_steel">강철</string>
     <string name="trait_steel_content">강철 챔피언은 체력이 50% 아래로 내려가면 몇 초 동안 피해를 입지 않습니다. \n (2) 2초 / (3) 3초 / (4) 4초</string>
     <string name="trait_summoner">소환사</string>
@@ -65,9 +65,9 @@
 
     <!-- cost 1 champion_name -->
     <string name="champion_name_1_1_1">오른</string>
-    <string name="champion_1_1_1_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_1_1_1_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_1_1_1_popup_mp">0 / 75</string>
-    <string name="champion_1_1_1_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_1_1_popup_attack">50 / 90 / 162</string>
     <string name="champion_1_1_1_popup_armor">40</string>
     <string name="champion_1_1_1_popup_attackspeed">0.55</string>
     <string name="champion_1_1_1_popup_attackrange">1</string>
@@ -75,9 +75,9 @@
     <string name="champion_1_1_1_popup_skillvalue">피해량 : 100 / 200 / 300</string>
 
     <string name="champion_name_1_1_2">다이애나</string>
-    <string name="champion_1_1_2_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_1_1_2_popup_hp">550 / 990 / 1782</string>
     <string name="champion_1_1_2_popup_mp">0 / 100</string>
-    <string name="champion_1_1_2_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_1_2_popup_attack">50 / 90 / 162</string>
     <string name="champion_1_1_2_popup_armor">20</string>
     <string name="champion_1_1_2_popup_attackspeed">0.7</string>
     <string name="champion_1_1_2_popup_attackrange">1</string>
@@ -85,9 +85,9 @@
     <string name="champion_1_1_2_popup_skillvalue">피해량 : 80 / 100 / 125 \n보호막 : 150 / 250 / 350 \n구체의 수 : 3 / 4 / 5</string>
 
     <string name="champion_name_1_1_3">자이라</string>
-    <string name="champion_1_1_3_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_1_3_popup_hp">500 / 900 / 1620</string>
     <string name="champion_1_1_3_popup_mp">0 / 75</string>
-    <string name="champion_1_1_3_popup_attack">25 / 45 / 90</string>
+    <string name="champion_1_1_3_popup_attack">25 / 45 / 81</string>
     <string name="champion_1_1_3_popup_armor">20</string>
     <string name="champion_1_1_3_popup_attackspeed">0.65</string>
     <string name="champion_1_1_3_popup_attackrange">3</string>
@@ -95,19 +95,19 @@
     <string name="champion_1_1_3_popup_skillvalue">피해량 : 55 / 65 / 75 \n화염 발사 식물 수: 2 / 3 / 4</string>
 
     <string name="champion_name_1_1_4">워윅</string>
-    <string name="champion_1_1_4_popup_hp">650 / 1170 / 2340</string>
-    <string name="champion_1_1_4_popup_mp">50 / 150</string>
-    <string name="champion_1_1_4_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_1_4_popup_hp">650 / 1170 / 2106</string>
+    <string name="champion_1_1_4_popup_mp">50 / 125</string>
+    <string name="champion_1_1_4_popup_attack">50 / 90 / 162</string>
     <string name="champion_1_1_4_popup_armor">30</string>
     <string name="champion_1_1_4_popup_attackspeed">0.6</string>
     <string name="champion_1_1_4_popup_attackrange">1</string>
     <string name="champion_1_1_4_popup_skilldescription">워윅이 가장 약한 적에게 달려들어 1.5초 동안 기절시키고 3회 할퀴어 마법 피해를 입힙니다. 할퀼 때마다 적중 시 효과가 적용되며 워윅이 가한 피해만큼 체력을 회복합니다.</string>
-    <string name="champion_1_1_4_popup_skillvalue">피해량 : 150 / 225 / 300</string>
+    <string name="champion_1_1_4_popup_skillvalue">피해량 : 200 / 500 / 800</string>
 
     <string name="champion_name_1_1_5">아이번</string>
-    <string name="champion_1_1_5_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_1_1_5_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_1_1_5_popup_mp">50 / 100</string>
-    <string name="champion_1_1_5_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_1_5_popup_attack">50 / 90 / 162</string>
     <string name="champion_1_1_5_popup_armor">25</string>
     <string name="champion_1_1_5_popup_attackspeed">0.6</string>
     <string name="champion_1_1_5_popup_attackrange">1</string>
@@ -115,9 +115,9 @@
     <string name="champion_1_1_5_popup_skillvalue">보호막 : 200 / 300 / 400</string>
 
     <string name="champion_name_1_1_6">코그모</string>
-    <string name="champion_1_1_6_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_1_6_popup_hp">500 / 900 / 1620</string>
     <string name="champion_1_1_6_popup_mp">0 / 40</string>
-    <string name="champion_1_1_6_popup_attack">25 / 45 / 90</string>
+    <string name="champion_1_1_6_popup_attack">25 / 45 / 81</string>
     <string name="champion_1_1_6_popup_armor">20</string>
     <string name="champion_1_1_6_popup_attackspeed">0.7</string>
     <string name="champion_1_1_6_popup_attackrange">3</string>
@@ -125,9 +125,9 @@
     <string name="champion_1_1_6_popup_skillvalue">피해량 : 125 / 275 / 425 \n시전 시간: 0.25</string>
 
     <string name="champion_name_1_2_1">나서스</string>
-    <string name="champion_1_2_1_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_1_2_1_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_1_2_1_popup_mp">0 / 100</string>
-    <string name="champion_1_2_1_popup_attack">50 / 90 / 180</string>
+    <string name="champion_1_2_1_popup_attack">50 / 90 / 162</string>
     <string name="champion_1_2_1_popup_armor">40</string>
     <string name="champion_1_2_1_popup_attackspeed">0.55</string>
     <string name="champion_1_2_1_popup_attackrange">1</string>
@@ -135,19 +135,19 @@
     <string name="champion_1_2_1_popup_skillvalue">초당 피해량 : 50 / 70 / 90 \n최대 체력 증가량: 250 / 400 / 550</string>
 
     <string name="champion_name_1_2_2">베인</string>
-    <string name="champion_1_2_2_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_2_2_popup_hp">550 / 990 / 1620</string>
     <string name="champion_1_2_2_popup_mp">無</string>
-    <string name="champion_1_2_2_popup_attack">40 / 72 / 144</string>
+    <string name="champion_1_2_2_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_1_2_2_popup_armor">25</string>
     <string name="champion_1_2_2_popup_attackspeed">0.75</string>
     <string name="champion_1_2_2_popup_attackrange">3</string>
     <string name="champion_1_2_2_popup_skilldescription">기본 지속 효과: 베인이 같은 대상을 3회 기본 공격하면 대상 최대 체력의 %만큼 고정 피해를 입힙니다.</string>
-    <string name="champion_1_2_2_popup_skillvalue">비례 피해량 : 9% / 12% / 15%</string>
+    <string name="champion_1_2_2_popup_skillvalue">비례 피해량 : 10% / 13% / 16%</string>
 
     <string name="champion_name_1_2_3">마오카이</string>
-    <string name="champion_1_2_3_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_1_2_3_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_1_2_3_popup_mp">0</string>
-    <string name="champion_1_2_3_popup_attack">55 / 99 / 198</string>
+    <string name="champion_1_2_3_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_1_2_3_popup_armor">35</string>
     <string name="champion_1_2_3_popup_attackspeed">0.5</string>
     <string name="champion_1_2_3_popup_attackrange">1</string>
@@ -155,9 +155,9 @@
     <string name="champion_1_2_3_popup_skillvalue">회복량 : 100 / 150 / 200</string>
 
     <string name="champion_name_1_2_4">레넥톤</string>
-    <string name="champion_1_2_4_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_1_2_4_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_1_2_4_popup_mp">0 / 100</string>
-    <string name="champion_1_2_4_popup_attack">55 / 99 / 198</string>
+    <string name="champion_1_2_4_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_1_2_4_popup_armor">35</string>
     <string name="champion_1_2_4_popup_attackspeed">0.6</string>
     <string name="champion_1_2_4_popup_attackrange">1</string>
@@ -165,9 +165,9 @@
     <string name="champion_1_2_4_popup_skillvalue">피해량 : 150 / 275 / 400 \n체력 회복량: 150 / 225 / 300</string>
 
     <string name="champion_name_1_2_5">블라디미르</string>
-    <string name="champion_1_2_5_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_1_2_5_popup_hp">550 / 990 / 1782</string>
     <string name="champion_1_2_5_popup_mp">0 / 75</string>
-    <string name="champion_1_2_5_popup_attack">40 / 72 / 144</string>
+    <string name="champion_1_2_5_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_1_2_5_popup_armor">30</string>
     <string name="champion_1_2_5_popup_attackspeed">0.65</string>
     <string name="champion_1_2_5_popup_attackrange">2</string>
@@ -175,9 +175,9 @@
     <string name="champion_1_2_5_popup_skillvalue">피해량 : 200 / 325 / 450</string>
 
     <string name="champion_name_1_2_6">탈리야</string>
-    <string name="champion_1_2_6_popup_hp">500 / 900 / 1800</string>
+    <string name="champion_1_2_6_popup_hp">500 / 900 / 1620</string>
     <string name="champion_1_2_6_popup_mp">50 / 80</string>
-    <string name="champion_1_2_6_popup_attack">40 / 72 / 144</string>
+    <string name="champion_1_2_6_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_1_2_6_popup_armor">20</string>
     <string name="champion_1_2_6_popup_attackspeed">0.65</string>
     <string name="champion_1_2_6_popup_attackrange">3</string>
@@ -187,9 +187,9 @@
 
     <!-- cost 2 champion_name -->
     <string name="champion_name_2_1_1">브라움</string>
-    <string name="champion_2_1_1_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_2_1_1_popup_hp">750 / 1350 / 2430</string>
     <string name="champion_2_1_1_popup_mp">0 / 65</string>
-    <string name="champion_2_1_1_popup_attack">40 / 72 / 144</string>
+    <string name="champion_2_1_1_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_2_1_1_popup_armor">75</string>
     <string name="champion_2_1_1_popup_attackspeed">0.6</string>
     <string name="champion_2_1_1_popup_attackrange">1</string>
@@ -197,9 +197,9 @@
     <string name="champion_2_1_1_popup_skillvalue">피해량 감소 : 70% / 80% / 90%</string>
 
     <string name="champion_name_2_1_2">르블랑</string>
-    <string name="champion_2_1_2_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_2_1_2_popup_hp">550 / 990 / 1782</string>
     <string name="champion_2_1_2_popup_mp">50 / 80</string>
-    <string name="champion_2_1_2_popup_attack">55 / 99 / 198</string>
+    <string name="champion_2_1_2_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_2_1_2_popup_armor">20</string>
     <string name="champion_2_1_2_popup_attackspeed">0.7</string>
     <string name="champion_2_1_2_popup_attackrange">2</string>
@@ -207,19 +207,19 @@
     <string name="champion_2_1_2_popup_skillvalue">피해량 : 200 / 450 / 800</string>
 
     <string name="champion_name_2_1_3">바루스</string>
-    <string name="champion_2_1_3_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_2_1_3_popup_hp">550 / 990 / 1782</string>
     <string name="champion_2_1_3_popup_mp">50 / 100</string>
-    <string name="champion_2_1_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_2_1_3_popup_attack">60 / 108 / 194.4</string>
     <string name="champion_2_1_3_popup_armor">25</string>
     <string name="champion_2_1_3_popup_attackspeed">0.75/</string>
     <string name="champion_2_1_3_popup_attackrange">4</string>
     <string name="champion_2_1_3_popup_skilldescription">바루스가 1.5초 동안 정신을 집중한 뒤 꿰뚫는 화살을 발사해 경로상의 모든 적에게 마법 피해를 입힙니다.</string>
-    <string name="champion_2_1_3_popup_skillvalue">피해량 : 225 / 450 / 675</string>
+    <string name="champion_2_1_3_popup_skillvalue">피해량 : 225 / 450 / 800</string>
 
     <string name="champion_name_2_1_4">잭스</string>
-    <string name="champion_2_1_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_2_1_4_popup_hp">700 / 1260 / 2268</string>
     <string name="champion_2_1_4_popup_mp">50 / 125</string>
-    <string name="champion_2_1_4_popup_attack">50 / 90 / 180</string>
+    <string name="champion_2_1_4_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_2_1_4_popup_armor">30</string>
     <string name="champion_2_1_4_popup_attackspeed">0.8</string>
     <string name="champion_2_1_4_popup_attackrange">1</string>
@@ -227,9 +227,9 @@
     <string name="champion_2_1_4_popup_skillvalue">피해량 : 150 / 250 / 450</string>
 
     <string name="champion_name_2_1_5">니코</string>
-    <string name="champion_2_1_5_popup_hp">500 / 900 / 1800</string>
-    <string name="champion_2_1_5_popup_mp">0 / 80</string>
-    <string name="champion_2_1_5_popup_attack">45 / 81 / 162</string>
+    <string name="champion_2_1_5_popup_hp">500 / 900 / 1620</string>
+    <string name="champion_2_1_5_popup_mp">0 / 60</string>
+    <string name="champion_2_1_5_popup_attack">45 / 81 / 145.8</string>
     <string name="champion_2_1_5_popup_armor">20</string>
     <string name="champion_2_1_5_popup_attackspeed">0.7</string>
     <string name="champion_2_1_5_popup_attackrange">3</string>
@@ -237,9 +237,9 @@
     <string name="champion_2_1_5_popup_skillvalue">피해량 : 100 / 200 / 350</string>
 
     <string name="champion_name_2_1_6">신드라</string>
-    <string name="champion_2_1_6_popup_hp">500 / 900 / 1800</string>
-    <string name="champion_2_1_6_popup_mp">0 / 80</string>
-    <string name="champion_2_1_6_popup_attack">40 / 72 / 144</string>
+    <string name="champion_2_1_6_popup_hp">500 / 900 / 1620</string>
+    <string name="champion_2_1_6_popup_mp">0 / 65</string>
+    <string name="champion_2_1_6_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_2_1_6_popup_armor">20</string>
     <string name="champion_2_1_6_popup_attackspeed">0.7</string>
     <string name="champion_2_1_6_popup_attackrange">3</string>
@@ -247,9 +247,9 @@
     <string name="champion_2_1_6_popup_skillvalue">피해량 : 175 / 350 / 600</string>
 
     <string name="champion_name_2_2_1">쓰레쉬</string>
-    <string name="champion_2_2_1_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_2_2_1_popup_hp">700 / 1260 / 2268</string>
     <string name="champion_2_2_1_popup_mp">50 / 125</string>
-    <string name="champion_2_2_1_popup_attack">55 / 99 / 198</string>
+    <string name="champion_2_2_1_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_2_2_1_popup_armor">40</string>
     <string name="champion_2_2_1_popup_attackspeed">0.55</string>
     <string name="champion_2_2_1_popup_attackrange">2</string>
@@ -257,29 +257,29 @@
     <string name="champion_2_2_1_popup_skillvalue">보호막 : 250 / 400 / 600</string>
 
     <string name="champion_name_2_2_2">세나</string>
-    <string name="champion_2_2_2_popup_hp">450 / 810 / 1620</string>
+    <string name="champion_2_2_2_popup_hp">450 / 810 / 1458</string>
     <string name="champion_2_2_2_popup_mp">0 / 75</string>
-    <string name="champion_2_2_2_popup_attack">45 / 72 / 144</string>
+    <string name="champion_2_2_2_popup_attack">45 / 72 / 129.6</string>
     <string name="champion_2_2_2_popup_armor">25</string>
     <string name="champion_2_2_2_popup_attackspeed">0.7</string>
     <string name="champion_2_2_2_popup_attackrange">4</string>
     <string name="champion_2_2_2_popup_skilldescription">세나가 가장 멀리 있는 아군을 관통하는 광선을 발사하여 적에게 마법 피해를 입히고 5초 동안 아군의 적중 시 효과에 마법 피해 효과를 부여합니다. 마법 피해는 세나가 입힌 피해량으로 간주됩니다.</string>
-    <string name="champion_2_2_2_popup_skillvalue">피해량 : 50 / 100 / 150 \n적중시 효과 피해량 : 15 / 30 / 55</string>
+    <string name="champion_2_2_2_popup_skillvalue">피해량 : 50 / 100 / 150 \n적중시 효과 피해량 : 15 / 40 / 65</string>
 
     <string name="champion_name_2_2_3">스카너</string>
-    <string name="champion_2_2_3_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_2_2_3_popup_hp">650 / 1170 / 2160</string>
     <string name="champion_2_2_3_popup_mp">0 / 65</string>
-    <string name="champion_2_2_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_2_2_3_popup_attack">60 / 108 / 194.4</string>
     <string name="champion_2_2_3_popup_armor">35</string>
     <string name="champion_2_2_3_popup_attackspeed">0.65</string>
     <string name="champion_2_2_3_popup_attackrange">1</string>
     <string name="champion_2_2_3_popup_skilldescription">스카너가 8초 동안 피해를 흡수하는 보호막을 얻습니다. 또한 보호막이 지속되는 동안 공격 속도가 증가합니다.</string>
-    <string name="champion_2_2_3_popup_skillvalue">보호막 : 150 / 450 / 750 \n추가 공격 속도: 30% / 65% / 100%</string>
+    <string name="champion_2_2_3_popup_skillvalue">보호막 : 150 / 450 / 750 \n추가 공격 속도: 50% / 75% / 100%</string>
 
     <string name="champion_name_2_2_4">렉사이</string>
-    <string name="champion_2_2_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_2_2_4_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_2_2_4_popup_mp">0 / 75</string>
-    <string name="champion_2_2_4_popup_attack">60 / 117 / 234</string>
+    <string name="champion_2_2_4_popup_attack">60 / 117 / 210.6</string>
     <string name="champion_2_2_4_popup_armor">30</string>
     <string name="champion_2_2_4_popup_attackspeed">0.7</string>
     <string name="champion_2_2_4_popup_attackrange">1</string>
@@ -287,19 +287,19 @@
     <string name="champion_2_2_4_popup_skillvalue">고정 피해량 : 200 / 550 / 850</string>
 
     <string name="champion_name_2_2_5">말자하</string>
-    <string name="champion_2_2_5_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_2_2_5_popup_hp">550 / 990 / 1782</string>
     <string name="champion_2_2_5_popup_mp">75 / 125</string>
-    <string name="champion_2_2_5_popup_attack">40 / 72 / 144</string>
+    <string name="champion_2_2_5_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_2_2_5_popup_armor">20</string>
     <string name="champion_2_2_5_popup_attackspeed">0.65</string>
     <string name="champion_2_2_5_popup_attackrange">3</string>
     <string name="champion_2_2_5_popup_skilldescription">말자하가 그림자 무리를 소환합니다. 그림자 무리는 매 공격 시 마법 피해를 입힙니다. 활성화되어 있는 그림자 특성 추가 효과는 그림자 무리에게도 적용됩니다.</string>
-    <string name="champion_2_2_5_popup_skillvalue">그림자 무리 개체 수 : 2 / 3 / 4 \n그림자 무리 피해량 : 30 / 60 / 90 \n그림자 무리 체력 : 250</string>
+    <string name="champion_2_2_5_popup_skillvalue">그림자 무리 개체 수 : 2 / 3 / 4 \n그림자 무리 피해량 : 40 / 70 / 100 \n그림자 무리 체력 : 250</string>
 
     <string name="champion_name_2_2_6">볼리베어</string>
-    <string name="champion_2_2_6_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_2_2_6_popup_hp">850 / 1530 / 2754</string>
     <string name="champion_2_2_6_popup_mp">0 / 75</string>
-    <string name="champion_2_2_6_popup_attack">60 / 108 / 216</string>
+    <string name="champion_2_2_6_popup_attack">60 / 108 / 194.4</string>
     <string name="champion_2_2_6_popup_armor">35</string>
     <string name="champion_2_2_6_popup_attackspeed">0.7</string>
     <string name="champion_2_2_6_popup_attackrange">1</string>
@@ -307,9 +307,9 @@
     <string name="champion_2_2_6_popup_skillvalue">피해량 : 200 / 450 / 850</string>
 
     <string name="champion_name_2_3_1">야스오</string>
-    <string name="champion_2_3_1_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_2_3_1_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_2_3_1_popup_mp">0 / 100</string>
-    <string name="champion_2_3_1_popup_attack">60 / 99 / 198</string>
+    <string name="champion_2_3_1_popup_attack">60 / 99 / 178.2</string>
     <string name="champion_2_3_1_popup_armor">30</string>
     <string name="champion_2_3_1_popup_attackspeed">0.7</string>
     <string name="champion_2_3_1_popup_attackrange">1</string>
@@ -319,19 +319,19 @@
 
     <!-- cost 3 champion_name -->
     <string name="champion_name_3_1_1">아지르</string>
-    <string name="champion_3_1_1_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_1_1_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_3_1_1_popup_mp">0 / 100</string>
-    <string name="champion_3_1_1_popup_attack">55 / 99 / 198</string>
+    <string name="champion_3_1_1_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_3_1_1_popup_armor">20</string>
     <string name="champion_3_1_1_popup_attackspeed">0.8</string>
     <string name="champion_3_1_1_popup_attackrange">3</string>
     <string name="champion_3_1_1_popup_skilldescription">아지르가 선택한 지역에 6초 동안 유지되는 모래 병사를 소환합니다. 모래 병사는 아지르가 공격할 때마다 일직선 상의 주변 적들을 공격하여 마법 피해를 입힙니다.</string>
-    <string name="champion_3_1_1_popup_skillvalue">피해량 : 125 / 250 / 375</string>
+    <string name="champion_3_1_1_popup_skillvalue">피해량 : 125 / 275 / 450</string>
 
     <string name="champion_name_3_1_2">사이온</string>
-    <string name="champion_3_1_2_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_3_1_2_popup_hp">850 / 1530 / 2754</string>
     <string name="champion_3_1_2_popup_mp">0 / 125</string>
-    <string name="champion_3_1_2_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_1_2_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_3_1_2_popup_armor">35</string>
     <string name="champion_3_1_2_popup_attackspeed">0.65</string>
     <string name="champion_3_1_2_popup_attackrange">1</string>
@@ -339,9 +339,9 @@
     <string name="champion_3_1_2_popup_skillvalue">피해량 : 200 / 400 / 800</string>
 
     <string name="champion_name_3_1_3">문도박사</string>
-    <string name="champion_3_1_3_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_3_1_3_popup_hp">750 / 1350 / 2430</string>
     <string name="champion_3_1_3_popup_mp">75 / 125</string>
-    <string name="champion_3_1_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_3_1_3_popup_attack">60 / 108 / 194.4</string>
     <string name="champion_3_1_3_popup_armor">35</string>
     <string name="champion_3_1_3_popup_attackspeed">0.65</string>
     <string name="champion_3_1_3_popup_attackrange">1</string>
@@ -349,9 +349,9 @@
     <string name="champion_3_1_3_popup_skillvalue">피해량 : 50 / 100 / 150 \n\체력 회복량: 100% / 125% / 150%</string>
 
     <string name="champion_name_3_1_4">킨드레드</string>
-    <string name="champion_3_1_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_3_1_4_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_3_1_4_popup_mp">0 / 35</string>
-    <string name="champion_3_1_4_popup_attack">55 / 99 / 198</string>
+    <string name="champion_3_1_4_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_3_1_4_popup_armor">20</string>
     <string name="champion_3_1_4_popup_attackspeed">0.75</string>
     <string name="champion_3_1_4_popup_attackrange">3</string>
@@ -361,7 +361,7 @@
     <string name="champion_name_3_1_5">이즈리얼</string>
     <string name="champion_3_1_5_popup_hp">600 / 1080 / 2160</string>
     <string name="champion_3_1_5_popup_mp">0 / 30</string>
-    <string name="champion_3_1_5_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_1_5_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_3_1_5_popup_armor">20</string>
     <string name="champion_3_1_5_popup_attackspeed">0.7</string>
     <string name="champion_3_1_5_popup_attackrange">3</string>
@@ -369,19 +369,19 @@
     <string name="champion_3_1_5_popup_skillvalue">피해량 : 200 / 400 / 800</string>
 
     <string name="champion_name_3_1_6">아트록스</string>
-    <string name="champion_3_1_6_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_3_1_6_popup_hp">800 / 1440 / 2592</string>
     <string name="champion_3_1_6_popup_mp">0 / 70</string>
-    <string name="champion_3_1_6_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_1_6_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_3_1_6_popup_armor">35</string>
     <string name="champion_3_1_6_popup_attackspeed">0.7</string>
     <string name="champion_3_1_6_popup_attackrange">1</string>
     <string name="champion_3_1_6_popup_skilldescription">아트록스가 대검을 휘둘러 전방 범위 내 모든 적에게 마법 피해를 입힙니다.</string>
-    <string name="champion_3_1_6_popup_skillvalue">피해량 : 250 / 500 / 1000</string>
+    <string name="champion_3_1_6_popup_skillvalue">피해량 : 300 / 600 / 1200</string>
 
     <string name="champion_name_3_2_1">노틸러스</string>
-    <string name="champion_3_2_1_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_3_2_1_popup_hp">850 / 1530 / 2754</string>
     <string name="champion_3_2_1_popup_mp">50 / 125</string>
-    <string name="champion_3_2_1_popup_attack">55 / 99 / 198</string>
+    <string name="champion_3_2_1_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_3_2_1_popup_armor">40</string>
     <string name="champion_3_2_1_popup_attackspeed">0.6</string>
     <string name="champion_3_2_1_popup_attackrange">1</string>
@@ -389,19 +389,19 @@
     <string name="champion_3_2_1_popup_skillvalue">피해량 : 100 / 200 / 400 \n기절 지속시간 : 3 / 4 / 6</string>
 
     <string name="champion_name_3_2_2">키아나</string>
-    <string name="champion_3_2_2_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_3_2_2_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_3_2_2_popup_mp">50 / 100</string>
-    <string name="champion_3_2_2_popup_attack">65 / 117 / 234</string>
+    <string name="champion_3_2_2_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_3_2_2_popup_armor">25</string>
     <string name="champion_3_2_2_popup_attackspeed">0.7</string>
     <string name="champion_3_2_2_popup_attackrange">1</string>
     <string name="champion_3_2_2_popup_skilldescription">키아나가 전방 짧은 직선 내의 적을 공격하며 기절시키고 마법 피해를 입힙니다.</string>
-    <string name="champion_3_2_2_popup_skillvalue">피해량 : 200 / 400 / 600 \n기절 지속 시간 : 3 / 4 / 5</string>
+    <string name="champion_3_2_2_popup_skillvalue">피해량 : 300 / 500 / 900 \n기절 지속 시간 : 2.5 / 3.5 / 4.5</string>
 
     <string name="champion_name_3_2_3">시비르</string>
-    <string name="champion_3_2_3_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_2_3_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_3_2_3_popup_mp">0 / 65</string>
-    <string name="champion_3_2_3_popup_attack">55 / 90 / 180</string>
+    <string name="champion_3_2_3_popup_attack">55 / 90 / 162</string>
     <string name="champion_3_2_3_popup_armor">25</string>
     <string name="champion_3_2_3_popup_attackspeed">0.7</string>
     <string name="champion_3_2_3_popup_attackrange">3</string>
@@ -411,7 +411,7 @@
     <string name="champion_name_3_2_4">소라카</string>
     <string name="champion_3_2_4_popup_hp">600 / 1080 / 2160</string>
     <string name="champion_3_2_4_popup_mp">0 / 60</string>
-    <string name="champion_3_2_4_popup_attack">40 / 72 / 144</string>
+    <string name="champion_3_2_4_popup_attack">40 / 72 / 129.6</string>
     <string name="champion_3_2_4_popup_armor">20</string>
     <string name="champion_3_2_4_popup_attackspeed">0.7</string>
     <string name="champion_3_2_4_popup_attackrange">3</string>
@@ -419,19 +419,19 @@
     <string name="champion_3_2_4_popup_skillvalue">피해량 : 150 / 300 / 450 \n지속 시간 : 3 / 5 / 7</string>
 
     <string name="champion_name_3_2_5">녹턴</string>
-    <string name="champion_3_2_5_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_3_2_5_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_3_2_5_popup_mp">0</string>
-    <string name="champion_3_2_5_popup_attack">60 / 108 / 216</string>
+    <string name="champion_3_2_5_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_3_2_5_popup_armor">25</string>
-    <string name="champion_3_2_5_popup_attackspeed">0.75</string>
+    <string name="champion_3_2_5_popup_attackspeed">0.7</string>
     <string name="champion_3_2_5_popup_attackrange">1</string>
     <string name="champion_3_2_5_popup_skilldescription">기본 지속 효과 - 녹턴의 기본 공격이 세 번 적중할 때마다 공격이 강화되어 주변의 모든 적에게 피해를 입히고 적중 시 효과가 적용됩니다. 또한 녹턴이 피해량의 일정 비율만큼 자신의 체력을 회복합니다.</string>
     <string name="champion_3_2_5_popup_skillvalue">회복 비율 : 40% / 45% / 50%</string>
 
     <string name="champion_name_3_2_6">베이가</string>
-    <string name="champion_3_2_6_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_3_2_6_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_3_2_6_popup_mp">0 / 60</string>
-    <string name="champion_3_2_6_popup_attack">50 / 90 / 180</string>
+    <string name="champion_3_2_6_popup_attack">50 / 90 / 162</string>
     <string name="champion_3_2_6_popup_armor">20</string>
     <string name="champion_3_2_6_popup_attackspeed">0.6</string>
     <string name="champion_3_2_6_popup_attackrange">3</string>
@@ -441,19 +441,19 @@
 
     <!-- cost 4 champion_name -->
     <string name="champion_name_4_1_1">애니</string>
-    <string name="champion_4_1_1_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_4_1_1_popup_hp">700 / 1260 / 2268</string>
     <string name="champion_4_1_1_popup_mp">0 / 75</string>
-    <string name="champion_4_1_1_popup_attack">45 / 81 / 162</string>
+    <string name="champion_4_1_1_popup_attack">45 / 81 / 145.8</string>
     <string name="champion_4_1_1_popup_armor">20</string>
     <string name="champion_4_1_1_popup_attackspeed">0.7</string>
     <string name="champion_4_1_1_popup_attackrange">3</string>
     <string name="champion_4_1_1_popup_skilldescription">애니가 대상 근처에 티버를 소환하여 주변 모든 적에게 마법 피해를 입힙니다. 티버는 라운드가 끝나거나 쓰러질 때까지 싸우며 매 기본 공격 시 마법 피해를 입힙니다. 티버가 소환되어 있는 동안에는 애니의 마나가 회복되지 않습니다.</string>
-    <string name="champion_4_1_1_popup_skillvalue">피해량 : 100 / 200 / 300 \n티버 피해량 : 150 / 300 / 1000 \n티버 체력 : 2000, 티버 방어력 : 30</string>
+    <string name="champion_4_1_1_popup_skillvalue">피해량 : 100 / 200 / 300 \n티버 피해량 : 125 / 350 / 1500 \n티버 체력 : 2000, 티버 방어력 : 30</string>
 
     <string name="champion_name_4_1_2">브랜드</string>
-    <string name="champion_4_1_2_popup_hp">700 / 1260 / 2520</string>
+    <string name="champion_4_1_2_popup_hp">700 / 1260 / 2268</string>
     <string name="champion_4_1_2_popup_mp">0 / 80</string>
-    <string name="champion_4_1_2_popup_attack">55 / 99 / 198</string>
+    <string name="champion_4_1_2_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_4_1_2_popup_armor">25</string>
     <string name="champion_4_1_2_popup_attackspeed">0.7</string>
     <string name="champion_4_1_2_popup_attackrange">3</string>
@@ -461,9 +461,9 @@
     <string name="champion_4_1_2_popup_skillvalue">피해량 : 225 / 300 / 600 \n최대 튕기는 횟수 : 5 / 7 / 20</string>
 
     <string name="champion_name_4_1_3">애쉬</string>
-    <string name="champion_4_1_3_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_4_1_3_popup_hp">550 / 990 / 1782</string>
     <string name="champion_4_1_3_popup_mp">0 / 35</string>
-    <string name="champion_4_1_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_4_1_3_popup_attack">60 / 108 / 194.4</string>
     <string name="champion_4_1_3_popup_armor">20</string>
     <string name="champion_4_1_3_popup_attackspeed">0.8</string>
     <string name="champion_4_1_3_popup_attackrange">4</string>
@@ -471,9 +471,9 @@
     <string name="champion_4_1_3_popup_skillvalue">추가 공격 속도 : 50% / 75% / 250% \n추가 피해량 : 130% / 135% / 140%</string>
 
     <string name="champion_name_4_1_4">카직스</string>
-    <string name="champion_4_1_4_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_4_1_4_popup_hp">750 / 1350 / 2430</string>
     <string name="champion_4_1_4_popup_mp">0 / 40</string>
-    <string name="champion_4_1_4_popup_attack">75 / 135 / 270</string>
+    <string name="champion_4_1_4_popup_attack">75 / 135 / 243</string>
     <string name="champion_4_1_4_popup_armor">25</string>
     <string name="champion_4_1_4_popup_attackspeed">0.8</string>
     <string name="champion_4_1_4_popup_attackrange">1</string>
@@ -481,9 +481,9 @@
     <string name="champion_4_1_4_popup_skillvalue">추가 피해량 : 100 / 200 / 500\n 마나 회복 : 5 / 10 / 15</string>
 
     <string name="champion_name_4_1_5">올라프</string>
-    <string name="champion_4_1_5_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_4_1_5_popup_hp">750 / 1350 / 2430</string>
     <string name="champion_4_1_5_popup_mp">0 / 90</string>
-    <string name="champion_4_1_5_popup_attack">70 / 126 / 252</string>
+    <string name="champion_4_1_5_popup_attack">70 / 126 / 226.8</string>
     <string name="champion_4_1_5_popup_armor">35</string>
     <string name="champion_4_1_5_popup_attackspeed">0.85</string>
     <string name="champion_4_1_5_popup_attackrange">1</string>
@@ -491,9 +491,9 @@
     <string name="champion_4_1_5_popup_skillvalue">추가 공격 속도 : 100% / 150% / 300%</string>
 
     <string name="champion_name_4_1_6">잔나</string>
-    <string name="champion_4_1_6_popup_hp">600 / 1080 / 2160</string>
+    <string name="champion_4_1_6_popup_hp">600 / 1080 / 1944</string>
     <string name="champion_4_1_6_popup_mp">50 / 125</string>
-    <string name="champion_4_1_6_popup_attack">45 / 81 / 162</string>
+    <string name="champion_4_1_6_popup_attack">45 / 81 / 145.8</string>
     <string name="champion_4_1_6_popup_armor">20</string>
     <string name="champion_4_1_6_popup_attackspeed">0.7</string>
     <string name="champion_4_1_6_popup_attackrange">3</string>
@@ -503,7 +503,7 @@
     <string name="champion_name_4_2_1">요릭</string>
     <string name="champion_4_2_1_popup_hp">800 / 1440 / 2880</string>
     <string name="champion_4_2_1_popup_mp">0 / 75</string>
-    <string name="champion_4_2_1_popup_attack">65 / 117 / 234</string>
+    <string name="champion_4_2_1_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_4_2_1_popup_armor">35</string>
     <string name="champion_4_2_1_popup_attackspeed">0.7</string>
     <string name="champion_4_2_1_popup_attackrange">1</string>
@@ -511,9 +511,9 @@
     <string name="champion_4_2_1_popup_skillvalue">미니언 체력: 600 / 1000 / 2000 \n미니언 피해량: 100 / 200 / 300 \n대상 수: 2 / 3 / 12</string>
 
     <string name="champion_name_4_2_2">루시안</string>
-    <string name="champion_4_2_2_popup_hp">550 / 990 / 1980</string>
+    <string name="champion_4_2_2_popup_hp">550 / 990 / 1782</string>
     <string name="champion_4_2_2_popup_mp">50</string>
-    <string name="champion_4_2_2_popup_attack">65 / 117 / 234</string>
+    <string name="champion_4_2_2_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_4_2_2_popup_armor">25</string>
     <string name="champion_4_2_2_popup_attackspeed">0.8</string>
     <string name="champion_4_2_2_popup_attackrange">3</string>
@@ -521,9 +521,9 @@
     <string name="champion_4_2_2_popup_skillvalue">피해량 : 25% / 30% / 50% \n적중 시 효과 피해량 : 40 / 50 / 100</string>
 
     <string name="champion_name_4_2_3">말파이트</string>
-    <string name="champion_4_2_3_popup_hp">850 / 1440 / 2880</string>
+    <string name="champion_4_2_3_popup_hp">850 / 1440 / 2592</string>
     <string name="champion_4_2_3_popup_mp">50 / 150</string>
-    <string name="champion_4_2_3_popup_attack">60 / 108 / 216</string>
+    <string name="champion_4_2_3_popup_attack">60 / 108 / 194.4</string>
     <string name="champion_4_2_3_popup_armor">50</string>
     <string name="champion_4_2_3_popup_attackspeed">0.55</string>
     <string name="champion_4_2_3_popup_attackrange">1</string>
@@ -531,21 +531,21 @@
     <string name="champion_4_2_3_popup_skillvalue">피해량 : 150 / 300 / 1000 \n기절 지속 시간 : 2 / 2.5 / 5</string>
 
     <string name="champion_name_4_2_4">트위치</string>
-    <string name="champion_4_2_4_popup_hp">650 / 1170 / 2340</string>
+    <string name="champion_4_2_4_popup_hp">650 / 1170 / 2106</string>
     <string name="champion_4_2_4_popup_mp">0 / 70</string>
-    <string name="champion_4_2_4_popup_attack">65 / 108 / 216</string>
+    <string name="champion_4_2_4_popup_attack">65 / 108 / 194.4</string>
     <string name="champion_4_2_4_popup_armor">20</string>
     <string name="champion_4_2_4_popup_attackspeed">0.75</string>
     <string name="champion_4_2_4_popup_attackrange">4</string>
     <string name="champion_4_2_4_popup_skilldescription">8초 동안 트위치의 기본 공격 사거리에 제한이 없어지고 피해를 입힙니다. 이때 트위치의 공격에는 최대 사거리가 적용되며 적중하는 모든 적을 관통합니다. 또한 적중 시 효과가 적용됩니다.</string>
-    <string name="champion_4_2_4_popup_skillvalue">추가 피해량 : 125% / 150% / 200</string>
+    <string name="champion_4_2_4_popup_skillvalue">추가 피해량 : 130% / 160% / 300%</string>
 
 
     <!-- cost 5 champion_name -->
     <string name="champion_name_5_1_1">제드</string>
-    <string name="champion_5_1_1_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_5_1_1_popup_hp">850 / 1530 / 2754</string>
     <string name="champion_5_1_1_popup_mp">50 / 150</string>
-    <string name="champion_5_1_1_popup_attack">70 / 144 / 288</string>
+    <string name="champion_5_1_1_popup_attack">70 / 144 / 259.2</string>
     <string name="champion_5_1_1_popup_armor">25</string>
     <string name="champion_5_1_1_popup_attackspeed">1</string>
     <string name="champion_5_1_1_popup_attackrange">1</string>
@@ -553,37 +553,37 @@
     <string name="champion_5_1_1_popup_skillvalue">추가 마나 소모량 : 50 / 25 / 0</string>
 
     <string name="champion_name_5_1_2">아무무</string>
-    <string name="champion_5_1_2_popup_hp">900 / 1620 / 3240</string>
-    <string name="champion_5_1_2_popup_mp">50 / 125</string>
-    <string name="champion_5_1_2_popup_attack">55 / 99 / 198</string>
+    <string name="champion_5_1_2_popup_hp">900 / 1620 / 2916</string>
+    <string name="champion_5_1_2_popup_mp">75 / 150</string>
+    <string name="champion_5_1_2_popup_attack">55 / 99 / 178.2</string>
     <string name="champion_5_1_2_popup_armor">150</string>
     <string name="champion_5_1_2_popup_attackspeed">0.75</string>
     <string name="champion_5_1_2_popup_attackrange">1</string>
     <string name="champion_5_1_2_popup_skilldescription">아무무의 분노가 폭발해 범위 내에 있는 모든 적에게 마법 피해를 입히고 1.5초 동안 기절시킵니다.</string>
-    <string name="champion_5_1_2_popup_skillvalue">피해량 : 200 / 450 / 850 \n범위 : 3 / 3 / 3</string>
+    <string name="champion_5_1_2_popup_skillvalue">피해량 : 100 / 200 / 1337 \n범위 : 1.5 / 2 / 5</string>
 
     <string name="champion_name_5_1_3">나미</string>
-    <string name="champion_5_1_3_popup_hp">750 / 1350 / 2700</string>
+    <string name="champion_5_1_3_popup_hp">750 / 1350 / 2430</string>
     <string name="champion_5_1_3_popup_mp">50 / 125</string>
-    <string name="champion_5_1_3_popup_attack">50 / 90 / 180</string>
+    <string name="champion_5_1_3_popup_attack">50 / 90 / 162</string>
     <string name="champion_5_1_3_popup_armor">25</string>
     <string name="champion_5_1_3_popup_attackspeed">0.75</string>
     <string name="champion_5_1_3_popup_attackrange">4</string>
     <string name="champion_5_1_3_popup_skilldescription">나미가 거대한 해일을 소환하여 적중한 모든 적에게 마법 피해를 입히고 공중으로 띄워 올리며 기절시킵니다. 적중한 아군에게는 강화 효과가 부여되어 8초 동안 기본 공격에 추가 마법 피해가 적용됩니다.</string>
-    <string name="champion_5_1_3_popup_skillvalue">피해량 : 150 / 250 / 350 \n기절 지속 시간: 1.5 / 2 / 2.5 \n추가 피해량 : 25 / 50 / 300</string>
+    <string name="champion_5_1_3_popup_skillvalue">피해량 : 100 / 200 / 300 \n기절 지속 시간: 1.5 / 2 / 2.5 \n추가 피해량 : 25 / 50 / 300</string>
 
     <string name="champion_name_5_1_4">마스터 이</string>
-    <string name="champion_5_1_4_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_5_1_4_popup_hp">850 / 1530 / 2754</string>
     <string name="champion_5_1_4_popup_mp">100 / 150</string>
-    <string name="champion_5_1_4_popup_attack">70 / 126 / 252</string>
+    <string name="champion_5_1_4_popup_attack">70 / 126 / 226.8</string>
     <string name="champion_5_1_4_popup_armor">30</string>
     <string name="champion_5_1_4_popup_attackspeed">1</string>
     <string name="champion_5_1_4_popup_attackrange">1</string>
     <string name="champion_5_1_4_popup_skilldescription">마스터 이가 명상에 돌입하여 1초 동안 대상으로 지정할 수 없는 상태가 되고 최대 체력의 30%에 해당하는 체력을 회복합니다. 명상이 끝나고 6초 동안 마스터 이의 공격 속도가 100% 증가하며 적에게 기본 공격 적중 시 추가 마법 피해가 적용됩니다.</string>
-    <string name="champion_5_1_4_popup_skillvalue">추가 피해량 : 50 / 75 / 500</string>
+    <string name="champion_5_1_4_popup_skillvalue">추가 피해량 : 75 / 100 / 500</string>
 
     <string name="champion_name_5_1_5">신지드</string>
-    <string name="champion_5_1_5_popup_hp">950 / 1710 / 3420</string>
+    <string name="champion_5_1_5_popup_hp">950 / 1710 / 3078</string>
     <string name="champion_5_1_5_popup_mp">0</string>
     <string name="champion_5_1_5_popup_attack">0</string>
     <string name="champion_5_1_5_popup_armor">50</string>
@@ -593,9 +593,9 @@
     <string name="champion_5_1_5_popup_skillvalue">피해량 : 150 / 300 / 2000</string>
 
     <string name="champion_name_5_1_6">타릭</string>
-    <string name="champion_5_1_6_popup_hp">900 / 1620 / 3240</string>
+    <string name="champion_5_1_6_popup_hp">900 / 1620 / 2916</string>
     <string name="champion_5_1_6_popup_mp">50 / 125</string>
-    <string name="champion_5_1_6_popup_attack">60 / 108 / 216</string>
+    <string name="champion_5_1_6_popup_attack">60 / 108 / 194</string>
     <string name="champion_5_1_6_popup_armor">60</string>
     <string name="champion_5_1_6_popup_attackspeed">0.65</string>
     <string name="champion_5_1_6_popup_attackrange">1</string>
@@ -605,9 +605,9 @@
 
     <!-- cost 7 champion_name -->
     <string name="champion_name_7_1_1">럭스</string>
-    <string name="champion_7_1_1_popup_hp">850 / 1530 / 3060</string>
+    <string name="champion_7_1_1_popup_hp">850 / 1530 / 2754</string>
     <string name="champion_7_1_1_popup_mp">0 / 80</string>
-    <string name="champion_7_1_1_popup_attack">65 / 117 / 234</string>
+    <string name="champion_7_1_1_popup_attack">65 / 117 / 210.6</string>
     <string name="champion_7_1_1_popup_armor">25</string>
     <string name="champion_7_1_1_popup_attackspeed">0.85</string>
     <string name="champion_7_1_1_popup_attackrange">4</string>
