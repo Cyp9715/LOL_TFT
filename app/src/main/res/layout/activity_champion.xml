@@ -113,7 +113,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_1_1" />
+                            android:text="@string/champion_name_orrn" />
 
                     </LinearLayout>
 
@@ -137,7 +137,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_1_2" />
+                            android:text="@string/champion_name_diana" />
 
                     </LinearLayout>
 
@@ -161,7 +161,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_1_3" />
+                            android:text="@string/champion_name_zyra" />
 
                     </LinearLayout>
 
@@ -185,7 +185,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_1_4" />
+                            android:text="@string/champion_name_warwick" />
 
                     </LinearLayout>
 
@@ -209,7 +209,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_1_5" />
+                            android:text="@string/champion_name_ivern" />
 
                     </LinearLayout>
 
@@ -233,7 +233,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_1_6" />
+                            android:text="@string/champion_name_kogmaw" />
 
                     </LinearLayout>
 
@@ -264,7 +264,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_2_1" />
+                            android:text="@string/champion_name_nasus" />
 
                     </LinearLayout>
 
@@ -288,7 +288,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_2_2" />
+                            android:text="@string/champion_name_vayne" />
 
                     </LinearLayout>
 
@@ -312,7 +312,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_2_3" />
+                            android:text="@string/champion_name_maokai" />
 
                     </LinearLayout>
 
@@ -336,7 +336,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_2_4" />
+                            android:text="@string/champion_name_renekton" />
 
                     </LinearLayout>
 
@@ -360,7 +360,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_2_5" />
+                            android:text="@string/champion_name_vladimir" />
 
                     </LinearLayout>
 
@@ -384,7 +384,87 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_1_2_6" />
+                            android:text="@string/champion_name_taliyah" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cost1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_leona"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_weight="1"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost1_moon_leona" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/champion_name_leona" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                     </LinearLayout>
 
@@ -443,7 +523,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_1_1" />
+                            android:text="@string/champion_name_braum" />
 
                     </LinearLayout>
 
@@ -467,7 +547,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_1_2" />
+                            android:text="@string/champion_name_leblanc" />
 
                     </LinearLayout>
 
@@ -491,7 +571,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_1_3" />
+                            android:text="@string/champion_name_varus" />
 
                     </LinearLayout>
 
@@ -515,7 +595,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_1_4" />
+                            android:text="@string/champion_name_jax" />
 
                     </LinearLayout>
 
@@ -539,7 +619,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_1_5" />
+                            android:text="@string/champion_name_neeko" />
 
                     </LinearLayout>
 
@@ -563,7 +643,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_1_6" />
+                            android:text="@string/champion_name_syndra" />
 
                     </LinearLayout>
 
@@ -594,7 +674,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_2_1" />
+                            android:text="@string/champion_name_thresh" />
 
                     </LinearLayout>
 
@@ -618,7 +698,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_2_2" />
+                            android:text="@string/champion_name_senna" />
 
                     </LinearLayout>
 
@@ -642,7 +722,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_2_3" />
+                            android:text="@string/champion_name_skarner" />
 
                     </LinearLayout>
 
@@ -666,7 +746,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_2_4" />
+                            android:text="@string/champion_name_reksai" />
 
                     </LinearLayout>
 
@@ -690,7 +770,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_2_5" />
+                            android:text="@string/champion_name_malzahar" />
 
                     </LinearLayout>
 
@@ -714,7 +794,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_2_6" />
+                            android:text="@string/champion_name_volibare" />
 
                     </LinearLayout>
 
@@ -745,7 +825,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_2_3_1" />
+                            android:text="@string/champion_name_yasuo" />
 
                     </LinearLayout>
 
@@ -833,7 +913,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_1_1" />
+                            android:text="@string/champion_name_azir" />
 
                     </LinearLayout>
 
@@ -857,7 +937,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_1_2" />
+                            android:text="@string/champion_name_sion" />
 
                     </LinearLayout>
 
@@ -881,7 +961,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_1_3" />
+                            android:text="@string/champion_name_drmundo" />
 
                     </LinearLayout>
 
@@ -905,7 +985,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_1_4" />
+                            android:text="@string/champion_name_kindred" />
 
                     </LinearLayout>
 
@@ -929,7 +1009,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_1_5" />
+                            android:text="@string/champion_name_ezreal" />
 
                     </LinearLayout>
 
@@ -953,7 +1033,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_1_6" />
+                            android:text="@string/champion_name_aatrox" />
 
                     </LinearLayout>
 
@@ -985,7 +1065,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_2_1" />
+                            android:text="@string/champion_name_nautilus" />
 
                     </LinearLayout>
 
@@ -1009,7 +1089,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_2_2" />
+                            android:text="@string/champion_name_qiyana" />
 
                     </LinearLayout>
 
@@ -1033,7 +1113,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_2_3" />
+                            android:text="@string/champion_name_sivir" />
 
                     </LinearLayout>
 
@@ -1058,7 +1138,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_2_4" />
+                            android:text="@string/champion_name_soraka" />
 
                     </LinearLayout>
 
@@ -1082,7 +1162,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_2_5" />
+                            android:text="@string/champion_name_nocturne" />
 
                     </LinearLayout>
 
@@ -1106,7 +1186,88 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_3_2_6" />
+                            android:text="@string/champion_name_veigar" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/cost3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_champion_karma"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_weight="1"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/cost3_moon_karma" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/champion_name_karma" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                     </LinearLayout>
 
@@ -1160,7 +1321,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_1_1" />
+                            android:text="@string/champion_name_annie" />
 
                     </LinearLayout>
 
@@ -1183,7 +1344,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_1_2" />
+                            android:text="@string/champion_name_brand" />
 
                     </LinearLayout>
 
@@ -1206,7 +1367,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_1_3" />
+                            android:text="@string/champion_name_ashe" />
 
                     </LinearLayout>
 
@@ -1229,7 +1390,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_1_4" />
+                            android:text="@string/champion_name_khazix" />
 
                     </LinearLayout>
 
@@ -1252,7 +1413,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_1_5" />
+                            android:text="@string/champion_name_olaf" />
 
                     </LinearLayout>
 
@@ -1275,7 +1436,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_1_6" />
+                            android:text="@string/champion_name_janna" />
 
                     </LinearLayout>
 
@@ -1305,7 +1466,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_2_1" />
+                            android:text="@string/champion_name_yorick" />
 
                     </LinearLayout>
 
@@ -1328,7 +1489,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_2_2" />
+                            android:text="@string/champion_name_lucian" />
 
                     </LinearLayout>
 
@@ -1351,7 +1512,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_2_3" />
+                            android:text="@string/champion_name_malphite" />
 
                     </LinearLayout>
 
@@ -1374,7 +1535,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_4_2_4" />
+                            android:text="@string/champion_name_twitch" />
 
                     </LinearLayout>
 
@@ -1440,7 +1601,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_5_1_1" />
+                            android:text="@string/champion_name_zed" />
 
                     </LinearLayout>
 
@@ -1462,7 +1623,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_5_1_2" />
+                            android:text="@string/champion_name_amumu" />
 
                     </LinearLayout>
 
@@ -1485,7 +1646,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_5_1_3" />
+                            android:text="@string/champion_name_nami" />
 
                     </LinearLayout>
 
@@ -1508,7 +1669,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_5_1_4" />
+                            android:text="@string/champion_name_masteryi" />
 
                     </LinearLayout>
 
@@ -1530,7 +1691,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_5_1_5" />
+                            android:text="@string/champion_name_singed" />
 
                     </LinearLayout>
 
@@ -1553,7 +1714,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_5_1_6" />
+                            android:text="@string/champion_name_taric" />
 
                     </LinearLayout>
 
@@ -1606,7 +1767,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/champion_name_7_1_1" />
+                            android:text="@string/champion_name_lux" />
 
                     </LinearLayout>
 

@@ -2109,6 +2109,68 @@
 
             </LinearLayout>
 
+            <!--21 Moon -->
+            <LinearLayout
+                android:id="@+id/synergy_moon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_moon"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#00ff0000"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trait_moon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/trait_moon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_moon_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost1_moon_leona" />
+
+                    <ImageButton
+                        android:id="@+id/btn_synergy_moon_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="1dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cost3_moon_karma" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trait_moon_content" />
+
+            </LinearLayout>
+
 
         </LinearLayout>
 

@@ -299,7 +299,7 @@
                     android:background="@android:color/transparent"
                     android:padding="2dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/item_phantom_dancer" />
+                    android:src="@drawable/item_titans_resolve" />
 
                 <ImageButton
                     android:layout_width="match_parent"
@@ -389,7 +389,7 @@
                     android:background="@android:color/transparent"
                     android:padding="2dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/item_phantom_dancer" />
+                    android:src="@drawable/item_titans_resolve" />
 
                 <ImageButton
                     android:layout_width="match_parent"

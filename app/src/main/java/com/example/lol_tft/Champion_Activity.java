@@ -35,6 +35,7 @@ public class Champion_Activity extends AppCompatActivity {
         ImageButton btn_champion_renekton = findViewById(R.id.btn_champion_renekton);
         ImageButton btn_champion_vladimir = findViewById(R.id.btn_champion_vladimir);
         ImageButton btn_champion_taliyah = findViewById(R.id.btn_champion_taliyah);
+        ImageButton btn_champion_leona = findViewById(R.id.btn_champion_leona);
 
         ImageButton btn_champion_braum = findViewById(R.id.btn_champion_braum);
         ImageButton btn_champion_leblanc = findViewById(R.id.btn_champion_leblanc);
@@ -62,6 +63,7 @@ public class Champion_Activity extends AppCompatActivity {
         ImageButton btn_champion_soraka = findViewById(R.id.btn_champion_soraka);
         ImageButton btn_champion_nocturne = findViewById(R.id.btn_champion_nocturne);
         ImageButton btn_champion_veigar = findViewById(R.id.btn_champion_veigar);
+        ImageButton btn_champion_karma = findViewById(R.id.btn_champion_karma);
 
         ImageButton btn_champion_annie = findViewById(R.id.btn_champion_annie);
         ImageButton btn_champion_brand = findViewById(R.id.btn_champion_brand);
@@ -223,6 +225,13 @@ public class Champion_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int champion_popup_page = R.layout.champion_popup_cost1_taliyah;
+                Champion_popup(view, champion_popup_page);
+            }
+        });
+        btn_champion_leona.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                int champion_popup_page = R.layout.champion_popup_cost1_leona;
                 Champion_popup(view, champion_popup_page);
             }
         });
@@ -431,6 +440,14 @@ public class Champion_Activity extends AppCompatActivity {
                 Champion_popup(view, champion_popup_page);
             }
         });
+        btn_champion_karma.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                int champion_popup_page = R.layout.champion_popup_cost3_karma;
+                Champion_popup(view, champion_popup_page);
+            }
+        });
+
 
 
 

@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_hp" />
+                android:text="@string/champion_reksai_popup_hp" />
 
         </LinearLayout>
 
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_mp" />
+                android:text="@string/champion_reksai_popup_mp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -138,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_attack" />
+                android:text="@string/champion_reksai_popup_attack" />
 
         </LinearLayout>
 
@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_armor" />
+                android:text="@string/champion_reksai_popup_armor" />
         </LinearLayout>
     </LinearLayout>
 
@@ -188,7 +188,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_attackspeed" />
+                android:text="@string/champion_reksai_popup_attackspeed" />
 
         </LinearLayout>
 
@@ -210,7 +210,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_attackrange" />
+                android:text="@string/champion_reksai_popup_attackrange" />
         </LinearLayout>
     </LinearLayout>
 
@@ -239,7 +239,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:paddingLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_skilldescription"
+                android:text="@string/champion_reksai_popup_skilldescription"
                 android:textSize="13dp" />
 
             <TextView
@@ -248,7 +248,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:paddingLeft="10dp"
-                android:text="@string/champion_2_2_4_popup_skillvalue" />
+                android:text="@string/champion_reksai_popup_skillvalue" />
         </LinearLayout>
 
 
