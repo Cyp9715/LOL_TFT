@@ -1,5 +1,4 @@
 # LOL_TFT
-롤토체스, 안드로이드 앱
 
 That repository is dead.
 
